@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Iletisim";
+    Layout = "~/Views/_LayoutMain.cshtml";
+}
+
+<div class="container">
+    <form class="form-horizontal" action="" method=post oninput='confirmPassword.setCustomValidity(confirmPassword.value != password.value ? "Parolalar uyuşmuyor." : "")'>
+        <fieldset>
+
+            <legend class="text-left">Bize Ulaşın</legend>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-justify">Ürün ve hizmetlerimizi geliştirebilmemiz için görüş ve önerileriniz bizim için son derece önemlidir. Görüş ve önerileriniz en kısa zamanda değerlendirilecek ve sonucu hakkında size mutlaka geri dönülecektir. Hizmet ve ürünler ile ilgili görüş/öneri ve şikayetlerinizi aşağıdaki online başvuru formunu doldurarak Bughelper Merkezi'ne iletebilirsiniz.</p>
+                </div>
+            </div>
+            <div class="row">
+                <br />
+                <div class="col-md-4 text-left">
+                    <p><b>İletişim Bilgileri</b></p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Isparta, Türkiye</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> Phone: +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> Email: info@bughelper.codes</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <div class="col-sm-6 col-xs-12">
+                            <input class="form-control" id="name" name="name" placeholder="Ad Soyad" type="text" required>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <input class="form-control" id="email" name="email" placeholder="E-Posta" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Mesaj" rows="5"></textarea>
+                    <br />
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button class="btn btn-success pull-right" type="submit">Mesaj Gönder</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <legend class="text-left"></legend>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <p><b>Bize Sosyal Medya Üzerinden Ulaşın</b></p>
+                        <a class="btn btn-social-icon btn-facebook">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a class="btn btn-social-icon btn-github">
+                            <span class="fa fa-github"></span>
+                        </a>
+                        <a class="btn btn-social-icon btn-bitbucket">
+                            <span class="fa fa-bitbucket"></span>
+                        </a>
+                        <br /><br />
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+

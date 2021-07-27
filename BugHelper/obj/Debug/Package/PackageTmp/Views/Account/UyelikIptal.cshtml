@@ -1,0 +1,50 @@
+﻿@using BugHelper.Scripts.SoruUrl
+
+@{
+    ViewBag.Title = "UyelikIptal";
+}
+<div id="parola-degistir">
+    <div id="msj"></div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                            @Html.ValidationSummary()
+                            @using (Ajax.BeginForm("UyelikIptal", "Account", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "msj" }, new { @class = "form-horizontal" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <fieldset>
+                                    <legend>Üyelik İptali</legend>
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="passwordinput">Parolanızı giriniz</label>
+                                        <div class="col-md-5">
+                                            <input class="form-control" id="parola" name="parola" type="password">
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <label class="col-md-4 control-label" for="singlebutton"></label>
+                                        <div class="col-sm-3">
+                                            <button type="submit" class="btn btn-success btn-block signup-btn">Onayla</button>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })" class="btn btn-danger">Vazgeç</a>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                            }
+                            <div class="col-sm-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+<script>
+    function yonlendir() {
+        setTimeout(function () { location.href = '/Account/Login'; }, 700);
+    }
+</script>

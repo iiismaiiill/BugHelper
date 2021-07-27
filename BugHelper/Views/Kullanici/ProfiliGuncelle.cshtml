@@ -1,0 +1,96 @@
+﻿@using BugHelper.Scripts.SoruUrl
+
+@model BugHelper.Models.Profil
+@{
+    ViewBag.Title = "Profil Güncelle";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div id="durum">@Html.Raw(ViewBag.Message)</div>
+                    @using (Ajax.BeginForm("ProfiliGuncelleAction", "Kullanici", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "durum" }, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <fieldset>
+                            <legend class="text-left">Kişisel Bilgiler</legend>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Ad </label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.Ad, new { type = "text", @class = "form-control", @value = Model.Ad })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Soyad</label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.Soyad, new { type = "text", @class = "form-control", @value = Model.Soyad })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">İş Tanımı</label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.IsTanimi, new { type = "text", @class = "form-control", @value = Model.IsTanimi })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Ülke</label>
+                                <div class="col-md-5">
+                                    @Html.DropDownListFor(i => i.Ulke, new SelectList(ViewBag.Ulkeler, "Ülke Seç"), new { @class = "form-control", @value = Model.Ulke })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textarea">Hakkımda</label>
+                                <div class="col-md-5">
+                                    @Html.TextAreaFor(i => i.Hakkinda, new { type = "text", @class = "form-control", @value = Model.Hakkinda })
+                                </div>
+                            </div>
+                            <legend class="text-left">Sosyal İletişim Bilgileri</legend>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Facebook</label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.Facebook, new { type = "text", @class = "form-control", @value = Model.Facebook })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Twitter</label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.Twitter, new { type = "text", @class = "form-control", @value = Model.Twitter })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Github</label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.GitHub, new { type = "text", @class = "form-control", @value = Model.GitHub })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Bitbucket</label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.BitBucket, new { type = "text", @class = "form-control", @value = Model.BitBucket })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="guncellebuton"></label>
+                                <div class="col-md-5">
+                                    <button type="submit" class="btn btn-success btn-block" onclick="yonlendir()">Güncelle</button>
+                                    <a href="@Url.Action("ProfilGoruntule","Kullanici",new { takmaAd = FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = FriendlyURL.FriendlyURLTitle(User.Identity.Name) })" class="btn btn-danger btn-block">Vazgeç</a>
+                                </div>
+                            </div>
+                        </fieldset>
+                    }
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function yonlendir() {
+        setTimeout(function () { location.href = '@Url.Action("ProfilGoruntule","Kullanici",new { takmaAd = FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = FriendlyURL.FriendlyURLTitle(User.Identity.Name) })'; }, 700);
+    }
+
+</script>

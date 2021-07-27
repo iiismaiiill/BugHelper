@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "ProfilDuzenle";
+    Layout = "~/Views/_LayoutMain.cshtml";
+
+    @model TestTheme.Models.ProfilGun
+
+
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    @using (Html.BeginForm("ProfilDuzenle", "Profil", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                    {
+                        @Html.AntiForgeryToken()
+                    <fieldset>
+
+                        <legend class="text-left">Kişisel Bilgiler</legend>
+                        <br />
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Ad </label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.ad, new { type = "text", @class = "form-control", })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Soyad</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.soyad, new { type = "text", @class = "form-control", })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">İş Tanımı</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.istanimi, new { type = "text", @class = "form-control", })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Ülke</label>
+                            <div class="col-md-5">
+                                @Html.EnumDropDownListFor(m => m.ulke, "Ülke Seç", new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textarea">Hakkımda</label>
+                            <div class="col-md-5">
+                                <textarea class="form-control" id="textarea" name="textarea"></textarea>
+                            </div>
+                        </div>
+
+                        <legend class="text-left">Sosyal İletişim Bilgileri</legend>
+                        <br />
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Facebook</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.facebook, new { type = "text", @class = "form-control", @placeholder = "https://www.facebook.com/username" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Twitter</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.twitter, new { type = "text", @class = "form-control", @placeholder = "https://www.twitter.com/username" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Github</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.github, new { type = "text", @class = "form-control", @placeholder = "https://www.github.com/username" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Bitbucket</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.bitbucket, new { type = "text", @class = "form-control", @placeholder = "https://www.bitbucket.org/username" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="guncellebuton"></label>
+                            <div class="col-md-5">
+                                <button type="submit" class="btn btn-success btn-block">Güncelle</button>
+                                <a href="/Profil/Index" class="btn btn-danger btn-block">Vazgeç</a>
+                            </div>
+                        </div>
+                        @Html.Raw(ViewBag.Message)
+                    </fieldset>
+                    }
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

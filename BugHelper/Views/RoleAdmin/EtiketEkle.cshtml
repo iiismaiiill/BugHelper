@@ -1,0 +1,36 @@
+﻿@model BugHelper.Models.Etiket
+@{
+    ViewBag.Title = "EtiketEkle";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div id="durum">@Html.Raw(ViewBag.Message)</div>
+                    @using (Html.BeginForm("EtiketEkle", "RoleAdmin", new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <fieldset>
+                            <legend>Haber Ekle</legend>
+                            @Html.Raw(ViewBag.HaberMessage)
+                            <br />
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput">Kodlama Dili Ekle </label>
+                                <div class="col-md-5">
+                                    @Html.TextBoxFor(a => a.KodlamaDili, new { type = "text", @class = "form-control" })
+                                </div>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-5">
+                                <button type="submit" class="btn btn-success btn-block">Ekle</button>
+                            </div>
+                        </fieldset>
+                    }
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

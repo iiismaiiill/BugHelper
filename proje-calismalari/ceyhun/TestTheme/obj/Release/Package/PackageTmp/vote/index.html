@@ -1,0 +1,325 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>UpvoteJS</title>
+    <meta name="author" content="Janos Gyerik">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+
+    <script src="dist/upvote/upvote.vanilla.js"></script>
+
+    <link rel="stylesheet" href="dist/upvote/upvote.css">
+    <style type="text/css">
+	<!--
+	.hidden {
+    display: none;
+	}
+  .examples {
+    overflow: auto;
+  }
+  .examples div.upvote {
+    float: left;
+  }
+  #footer {
+    height: 60px;
+    background-color: #f5f5f5;
+  }
+  .credit {
+    margin: 20px 0;
+  }
+	-->
+    </style>
+</head>
+<body>
+    <a href="https://github.com/janosgyerik/upvotejs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="images/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+    <div class="container">
+        <h1>UpvoteJS - a voting widget</h1>
+        <div>UpvoteJS is a JavaScript package to create a voting widget like the one used on <a href="https://stackoverflow.com/">Stack Exchange</a> sites.</div>
+
+        <h2>Examples</h2>
+        <div class="row">
+            <div class="span6">
+                <h3>stackoverflow.com</h3>
+                <div class="examples" id="examples"></div>
+            </div>
+            <div class="span6">
+                <h3>unix.stackexchange.com</h3>
+                <div class="examples" id="unix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span6">
+                <h3>superuser.com</h3>
+                <div class="examples" id="superuser"></div>
+            </div>
+            <div class="span6">
+                <h3>serverfault.com</h3>
+                <div class="examples" id="serverfault"></div>
+            </div>
+        </div>
+
+        <h2>Markup (read-only examples)</h2>
+        <div class="row">
+            <div class="span6">
+                <h3>Basic</h3>
+                <div class="row">
+                    <div class="span1">
+                        <div class="upvote">
+                            <a class="upvote"></a>
+                            <span class="count">5</span>
+                            <a class="downvote"></a>
+                            <a class="star"></a>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <pre>
+&lt;div id="basic" class="upvote"&gt;
+    &lt;a class="upvote"&gt;&lt;/a&gt;
+    &lt;span class="count"&gt;5&lt;/span&gt;
+    &lt;a class="downvote"&gt;&lt;/a&gt;
+    &lt;a class="star"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="span6">
+                        <pre>
+// create with values from markup
+Upvote.create('basic');
+
+// create with specified values
+Upvote.create('basic', {count: 5});</pre>
+                    </div>
+                </div>
+                -->
+            </div><!-- end of column -->
+            <div class="span6">
+                <h3>Upvoted</h3>
+                <div class="row">
+                    <div class="span1">
+                        <div class="upvote">
+                            <a class="upvote upvote-on"></a>
+                            <span class="count">6</span>
+                            <a class="downvote"></a>
+                            <a class="star"></a>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <pre>
+&lt;div id="upvoted" class="upvote"&gt;
+    &lt;a class="upvote upvote-on"&gt;&lt;/a&gt;
+    &lt;span class="count"&gt;6&lt;/span&gt;
+    &lt;a class="downvote"&gt;&lt;/a&gt;
+    &lt;a class="star"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="span6">
+                        <pre>
+// create with values from markup
+Upvote.create('upvoted');
+
+// create with specified values
+Upvote.create('upvoted', {count: 6, upvoted: true});</pre>
+                    </div>
+                </div>
+                -->
+            </div><!-- end of column -->
+        </div><!-- end of row -->
+        <div class="row">
+            <div class="span6">
+                <h3>Downvoted</h3>
+                <div class="row">
+                    <div class="span1">
+                        <div class="upvote">
+                            <a class="upvote"></a>
+                            <span class="count">4</span>
+                            <a class="downvote downvote-on"></a>
+                            <a class="star"></a>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <pre>
+&lt;div id="downvoted" class="upvote"&gt;
+    &lt;a class="upvote"&gt;&lt;/a&gt;
+    &lt;span class="count"&gt;4&lt;/span&gt;
+    &lt;a class="downvote downvote-on"&gt;&lt;/a&gt;
+    &lt;a class="star"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="span6">
+                        <pre>
+// create with values from markup
+Upvote.create('downvoted');
+
+// create with specified values
+Upvote.create('downvoted', {count: 4, downvoted: true});</pre>
+                    </div>
+                </div>
+                -->
+            </div><!-- end of column -->
+            <div class="span6">
+                <h3>Upvoted and starred</h3>
+                <div class="row">
+                    <div class="span1">
+                        <div class="upvote">
+                            <a class="upvote upvote-on"></a>
+                            <span class="count">6</span>
+                            <a class="downvote"></a>
+                            <a class="star star-on"></a>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <pre>
+&lt;div id="upvoted-and-starred" class="upvote"&gt;
+    &lt;a class="upvote upvote-on"&gt;&lt;/a&gt;
+    &lt;span class="count"&gt;6&lt;/span&gt;
+    &lt;a class="downvote"&gt;&lt;/a&gt;
+    &lt;a class="star star-on"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="span6">
+                        <pre>
+// create with values from markup
+Upvote.create('upvoted-and-starred');
+
+// create with specified values
+Upvote.create('upvoted-and-starred', {count: 6, upvoted: true, starred: true});</pre>
+                    </div>
+                </div>
+                -->
+            </div><!-- end of column -->
+        </div><!-- end of row -->
+        <div class="row">
+            <div class="span6">
+                <h3>unix.stackexchange.com style</h3>
+                <div class="row">
+                    <div class="span1">
+                        <div class="upvote upvote-unix">
+                            <a class="upvote"></a>
+                            <span class="count">4</span>
+                            <a class="downvote downvote-on"></a>
+                            <a class="star"></a>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <pre>
+&lt;div id="unix" class="upvote upvote-unix"&gt;
+    &lt;a class="upvote"&gt;&lt;/a&gt;
+    &lt;span class="count"&gt;4&lt;/span&gt;
+    &lt;a class="downvote downvote-on"&gt;&lt;/a&gt;
+    &lt;a class="star"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="span6">
+                        <pre>
+// create with values from markup
+Upvote.create('unix');
+
+// create with specified values
+Upvote.create('unix', {count: 4, downvoted: true, skin: 'unix'});</pre>
+                    </div>
+                </div>
+                -->
+            </div><!-- end of column -->
+            <div class="span6">
+                <h3>serverfault.com style</h3>
+                <div class="row">
+                    <div class="span1">
+                        <div class="upvote upvote-serverfault">
+                            <a class="upvote upvote-on"></a>
+                            <span class="count">6</span>
+                            <a class="downvote"></a>
+                            <a class="star star-on"></a>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <pre>
+&lt;div id="serverfault" class="upvote upvote-serverfault"&gt;
+    &lt;a class="upvote upvote-on"&gt;&lt;/a&gt;
+    &lt;span class="count"&gt;6&lt;/span&gt;
+    &lt;a class="downvote"&gt;&lt;/a&gt;
+    &lt;a class="star star-on"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--
+                <div class="row">
+                    <div class="span6">
+                        <pre>
+// create with values from markup
+Upvote.create('serverfault');
+
+// create with specified values
+Upvote.create('serverfault', {count: 6, upvoted: true, starred: true, skin: 'serverfault'});</pre>
+                    </div>
+                </div>
+                -->
+            </div><!-- end of column -->
+        </div><!-- end of row -->
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://github.com/janosgyerik/upvotejs">Documentation / Download</a></li>
+            <li><a href="tests/vanilla.html">Unit tests</a></li>
+            <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=SQTLZB5QCLR82">Donate via PayPal</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="muted credit"><a href="https://github.com/janosgyerik/upvotejs">UpvoteJS</a> by <a href="https://janosgyerik.com/">Janos Gyerik</a></p>
+        </div>
+    </div>
+    <div id="templates" class="hidden">
+        <div class="upvote">
+            <a class="upvote" title="This is good stuff. Vote it up! (Click again to undo)"></a>
+            <span class="count" title="Total number of votes"></span>
+            <a class="downvote" title="This is not useful. Vote it down. (Click again to undo)"></a>
+            <a class="star" title="Mark as favorite. (Click again to undo)"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+      (function() {
+        const proto = document.getElementById('templates').getElementsByClassName('upvote')[0];
+        const gen = function() {
+          var idcount = 0;
+          return (target, cssClass, params) => {
+            const obj = proto.cloneNode(true);
+            obj.className += ' ' + cssClass;
+            obj.id = 'u' + (idcount++);
+            document.getElementById(target.substr(1)).appendChild(obj);
+            return Upvote.create(obj.id, params);
+          };
+        }();
+
+        [
+          params => gen('#examples', '', params),
+          params => gen('#unix', 'upvote-unix', params),
+          params => gen('#superuser', 'upvote-superuser', params),
+          params => gen('#serverfault', 'upvote-serverfault', params)
+        ].forEach(fun => {
+          fun({count: 1, downvoted: true});
+          fun({count: 2});
+          fun({count: 3, upvoted: true});
+          fun({count: 4, starred: true, downvoted: true});
+          fun({count: 5, starred: true});
+          fun({count: 6, starred: true, upvoted: true});
+        });
+      })();
+    </script>    
+</body>
+</html>

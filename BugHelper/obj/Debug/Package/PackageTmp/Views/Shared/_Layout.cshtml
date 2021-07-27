@@ -1,0 +1,150 @@
+﻿@using BugHelper.Scripts.SoruUrl
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/css/bootstrap-social.css" rel="stylesheet" />
+    <link href="~/vote/dist/upvotejs/upvotejs.css" rel="stylesheet" />
+    <link href="~/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" />
+    <script type="text/javascript" src="~/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="~/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .social-btn .btn {
+            margin: 10px 0;
+            font-size: 15px;
+            text-align: left;
+            line-height: 20px;
+        }
+
+            .social-btn .btn i {
+                float: left;
+                margin: 4px 15px 0 5px;
+                min-width: 15px;
+            }
+
+        .centerblock {
+            width: 250px;
+            margin-left: 230px;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body style="width: 100%; height: 100%;">
+    <nav class="navbar navbar-inverse" style="background-color:#202020;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="~/Home/Index">
+                    <img src="~/img/bughelper.png" height="30" style="margin-left: 30px; margin-top:-7px;" alt="BugHelper">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <div class="modal fade" tabindex="-1" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color:#202020; color:whitesmoke;">
+                                <button type="button" class="close" data-dismiss="modal" style="color:whitesmoke;">&times;</button>
+                                <h4 class="modal-title">Admin Paneli</h4>
+                            </div>
+                            <div class="modal-body text-center">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <a href="@Url.Action("Index", "RoleAdmin")" class="btn btn-default btn-block"><span class="glyphicon glyphicon glyphicon-align-left"></span> Rolleri Düzenle</a><br />
+                                        <a href="@Url.Action("KullaniciKontrolSil", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-remove"></span> Kullanıcı Sil</a><br />
+                                        <a href="@Url.Action("KullaniciKontrolEngelle", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon glyphicon-lock"></span> Kullanıcı Engelle</a><br />
+                                        <a href="@Url.Action("KullaniciKontrolEngelKaldir", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-ok"></span> Kullanıcının Engelini Kaldır</a><br />
+                                        <a href="@Url.Action("BeklemeListesiSorular", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-ok"></span> Soruları Onayla</a><br />
+                                        <a href="@Url.Action("BeklemeListesiCevaplar", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-ok"></span> Cevapları Onayla</a><br />
+                                        <a href="@Url.Action("HaberEkle", "Sorular")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-bullhorn"></span>Haber Ekle</a><br />
+                                        <a href="@Url.Action("IletısımMesajlar", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-bell"></span>Gelen Mesajlar</a><br />
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    @if (User.IsInRole("admin"))
+                    {
+                        <li><a href="#" style="color:whitesmoke;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-wrench"></span>Admin Paneli</a></li>
+                        <li><a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })" style="color:whitesmoke;"><span class="glyphicon glyphicon-user"></span> @User.Identity.Name</a></li>
+                        <li><a href="~/Account/Logout" style="color:whitesmoke;"><span class="glyphicon glyphicon-log-out"></span> Çıkış</a></li>
+                    }
+                    else if (!User.Identity.IsAuthenticated)
+                    {
+                        <li><a href="~/Account/Login" style="color:whitesmoke;"><span class="glyphicon glyphicon-log-in"></span> Giriş</a></li>
+                        <li><a href="~/Account/Register" id="site" style="color:whitesmoke;"><span class="glyphicon glyphicon-triangle-top"></span> Kayıt Ol</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })" style="color:whitesmoke;"><span class="glyphicon glyphicon-user"></span> @User.Identity.Name</a></li>
+                        <li><a href="~/Account/Logout" style="color:whitesmoke;"><span class="glyphicon glyphicon-log-out"></span> Çıkış</a></li>
+                    }
+                </ul>
+                <form action="~/Home/Ara" method="POST" class="navbar-form text-center" id="navBarSearhForm" role="search">
+                    <div class="form-group input-group">
+                        <input type="text" name="arananString" class="form-control" style="width:400px;" placeholder="Ara...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        @RenderBody()
+    </div>
+    <footer class="container-fluid visible-xs text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="/Home/Index">Ana Sayfa</a> |
+                <a href="/Home/Hakkimizda">Hakkımızda</a> |
+                <a href="/Kullanici/Iletisim">İletişim</a>
+            </div>
+            <br />
+            <div class="col-md-6">
+                <div class="text-center">
+
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-github">
+                        <span class="fa fa-github"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-bitbucket">
+                        <span class="fa fa-bitbucket"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br />
+        <p>2019 © Copyrigt BugHelper</p>
+    </footer>
+</body>
+</html>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/MicrosoftAjax.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/MicrosoftMvcAjax.js")" type="text/javascript"></script>

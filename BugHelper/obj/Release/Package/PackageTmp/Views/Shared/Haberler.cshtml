@@ -1,0 +1,20 @@
+﻿@if(Model != null) { 
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-heading text-left" style="background-color:#202020; color:whitesmoke;">Neler Yeni?</div>
+                <div class="panel-body text-left">
+                    <div class="list-group">
+                        @foreach (var item in Model)
+                        {
+                            <a href="@item.HaberLinki" class="list-group-item" target="_blank">
+                                <h5 class="list-group-item-heading">@item.HaberBaslik</h5>
+                                <p class="list-group-item-text">@item.HaberIcerik</p>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    }

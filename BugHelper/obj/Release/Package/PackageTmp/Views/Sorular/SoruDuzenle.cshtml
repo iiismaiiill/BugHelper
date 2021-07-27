@@ -1,0 +1,55 @@
+﻿@model BugHelper.Models.SorularModel
+@using BugHelper.Scripts.SoruUrl
+@{
+    ViewBag.Title = "Soru Düzenle";
+}
+<div class="row">
+    @using (Html.BeginForm("SoruDuzenle", "Sorular", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+
+            <legend class="text-left">Soru Düzenle</legend>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="textinput">Soru Başlık :</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.SoruBaslik, new { type = "text", @class = "form-control", @value = Model.SoruBaslik })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="textinput">Soru İçerik :</label>
+                <div class="col-md-10">
+                    @Html.TextAreaFor(m => m.SoruIcerik, new { @id = "editor1", @value = Html.Raw(Model.SoruIcerik) })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="guncellebuton">Etiket :</label>
+                <div class="col-md-7 col-xs-12">
+                    @Html.DropDownListFor(i => i.KodlamaDili, new SelectList(ViewBag.Diller), new { @class = "form-control", @value = Model.KodlamaDili })
+                    <br />
+                </div>
+                <div class="col-md-3 text-right">
+                    <button type="submit" class="btn btn-success"> Düzenle</button>
+                    <a href="@Url.Action("Soru","Sorular",new { baslik = FriendlyURL.FriendlyURLTitle(Model.SoruBaslik), SoruId = Model.Id })" class="btn btn-danger"> Vazgeç</a>
+                    <br /><br /><br />
+                </div>
+            </div>
+            @Html.HiddenFor(i => i.Id, Model.Id)
+        </fieldset>
+    }
+    @using (Html.BeginForm("SoruSil", "Sorular", FormMethod.Post))
+    {
+        <button type="submit" class="alert alert-primary" role="alert">Soruyu Sil</button>
+        @Html.HiddenFor(i => i.Id, Model.Id)
+        @Html.HiddenFor(i => i.SoruBaslik, Model.SoruBaslik)
+    }
+</div>
+<script type="text/javascript">
+    var editor = CKEDITOR.instances['editor1'];
+    if (editor) { editor.destroy(true); }
+    CKEDITOR.replace('editor1', {
+        enterMode: CKEDITOR.ENTER_BR,
+    });
+</script>

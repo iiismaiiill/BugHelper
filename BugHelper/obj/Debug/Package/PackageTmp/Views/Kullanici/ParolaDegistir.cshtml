@@ -1,0 +1,71 @@
+﻿@using BugHelper.Scripts.SoruUrl
+@model BugHelper.Models.ParolaDegistir
+@{
+    ViewBag.Title = "ParolaDegistir";
+}
+
+<div id="parola-degistir">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                            @Html.ValidationSummary()
+                            @using (Html.BeginForm("ParolaDegistir", "Kullanici", new { kullaniciAdi = @FriendlyURL.FriendlyURLTitle(User.Identity.Name) }, FormMethod.Post, new { @class = "form-horizontal" }))
+                            {
+                                @Html.AntiForgeryToken()
+                            <fieldset>
+                                @Html.Raw(@ViewBag.Message)
+                                <!-- Form Name -->
+                                <legend>Parola Değiştir</legend>
+
+                                <!-- Password input-->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">Geçerli Parola</label>
+                                    <div class="col-md-5">
+                                        @Html.TextBoxFor(i => i.OldPassword, new { @class = "form-control", @type = "password", @placeholder = "Geçerli Parola", @required = "required" })
+                                    </div>
+                                </div>
+
+                                <!-- Password input-->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">Yeni Parola</label>
+                                    <div class="col-md-5">
+                                        @Html.TextBoxFor(i => i.Password, new { @class = "form-control", @type = "password", @placeholder = "Yeni Parola", @required = "required" })
+                                    </div>
+                                </div>
+
+                                <!-- Password input-->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">Yeni Parola Tekrar</label>
+                                    <div class="col-md-5">
+                                        @Html.TextBoxFor(i => i.ConfirmPassword, new { @class = "form-control", @type = "password", @placeholder = "Yeni Parola Tekrar", @required = "required" })
+                                    </div>
+                                </div>
+
+                                <!-- Button -->
+                                <div class="form-group text-center">
+                                    <label class="col-md-4 control-label" for="singlebutton"></label>
+                                    <div class="col-sm-3">
+                                        <button type="submit" class="btn btn-success btn-block signup-btn">Onayla</button>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })" class="btn btn-danger">Vazgeç</a>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            }
+                            <div class="col-sm-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<script>
+    function yonlendir() {
+        setTimeout(function () { location.href = '/Home/Index'; }, 700);
+    }
+</script>
+

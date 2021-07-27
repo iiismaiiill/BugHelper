@@ -1,0 +1,24 @@
+﻿@model BugHelper.Models.SoruCevapModel
+<style>
+    .linkButton {
+        background: none;
+        border: none;
+        color: #0066ff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>
+@using (Ajax.BeginForm("Favori", "Kullanici", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "favoriye-ekle" }))
+{
+    <div id="upvoted-and-starred" class="upvotejs">
+        @if (Model.FavorideMi != true)
+        {
+        <button class="linkButton" id="favoributton" type="submit" value="@Model.SoruId" name="soruId"><a class="star star"></a></button>
+
+        }
+        else
+        {
+        <button class="linkButton" id="favoributton" type="submit" value="@Model.SoruId" name="soruId"><a class="star star-on"></a></button>
+        }
+    </div>
+}

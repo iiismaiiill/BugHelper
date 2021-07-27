@@ -1,0 +1,261 @@
+﻿@using BugHelper.Scripts.SoruUrl
+@model BugHelper.Models.ProfilModel
+@{
+    ViewBag.Title = "ProfilGoruntule";
+
+}
+@if (Model != null)
+{
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-3">
+                        @if (Model.Kullanici.Path != null)
+                        {
+                            <img src="@Model.Kullanici.Path" class="img-circle" height="150" width="150" alt="Avatar">
+                        }
+                        else
+                        {
+                            <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="150" width="150" alt="Avatar">
+                        }
+                    </div>
+                    <div class="col-sm-6 text-left">
+                        @if (Model.Kullanici.Ad != null && Model.Kullanici.Soyad != null)
+                        {
+                            <h3><b>@Model.Kullanici.Ad @Model.Kullanici.Soyad</b></h3>
+                        }
+                        else
+                        {
+                            <h3><b>@Model.Kullanici.UserName</b></h3>
+                        }
+                        <div>
+                            @if (User.Identity.IsAuthenticated && Model.Kullanici.UserName != User.Identity.Name)
+                            {
+                                if (!Model.TakipteMi)
+                                {
+                                    <div id="takip-et">
+                                        @using (Ajax.BeginForm("TakipEt", "Kullanici", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "takip-et" }))
+                                        {
+
+                                            <button type="submit" value="Takip Et" id="TakipEt" class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span>Takip Et</button>
+                                            <input type="hidden" value="@Model.Kullanici.UserName" name="kullaniciAdi" />
+                                        }
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div id="takipten-cik">
+                                        @using (Ajax.BeginForm("TakiptenCik", "Kullanici", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "takipten-cik" }))
+                                        {
+                                            <button type="submit" value="Takip Et" id="TakipEt" class="btn btn-success"><span class="glyphicon glyphicon-thumbs-down"></span>Takipten Çık</button>
+                                            <input type="hidden" value="@Model.Kullanici.UserName" name="kullaniciAdi" />
+                                        }
+                                    </div>
+                                }
+                            }
+                            @if (Model.Kullanici.UserName == User.Identity.Name)
+                            {
+                                <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModalProfil"><span class="glyphicon glyphicon-edit"></span> Düzenle</a>
+                                <div class="modal fade" tabindex="-1" id="myModalProfil" role="dialog">
+                                    <div class="modal-dialog modal-sm" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="background-color:#202020; color:whitesmoke;">
+                                                <button type="button" class="close" data-dismiss="modal" style="color:whitesmoke;">&times;</button>
+                                                <h4 class="modal-title">Profil Düzenle</h4>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <a href="@Url.Action("FotoGuncelle","Kullanici", new { kullaniciAdi = User.Identity.Name})" class="btn btn-default btn-block"><span class="glyphicon glyphicon-user"></span> Fotoğraf Güncelle</a><br />
+                                                        <a href="@Url.Action("ProfiliGuncelle", "Kullanici", new { kullaniciAdi = User.Identity.Name})" class="btn btn-default btn-block"><span class="glyphicon glyphicon-edit"></span> Bilgileri Güncelle</a><br />
+                                                        @if (Model.Kullanici.ExternalLoginType == null)
+                                                        {
+                                                            <a href="@Url.Action("EpostaDegistir", "Kullanici", new { kullaniciAdi = User.Identity.Name})" class="btn btn-default btn-block"><span class="glyphicon glyphicon-envelope"></span> EPosta Değiştir</a><br />
+                                                            <a href="@Url.Action("ParolaDegistir", "Kullanici", new { kullaniciAdi = User.Identity.Name})" class="btn btn-default btn-block"><span class="glyphicon glyphicon-lock"></span> Parola Değiştir</a><br />
+                                                            <a href="@Url.Action("TwoFAEnable", "Account")" class="btn btn-default btn-block"><span class="glyphicon glyphicon-lock"></span>2FA</a><br />
+                                                        }
+                                                        else
+                                                        {
+                                                            <div class="btn btn-default btn-block" style="border: 1px solid red;color:red;"><span class="glyphicon glyphicon-envelope" style="color:red;"></span> EPosta Değiştir</div><br />
+                                                            <div class="btn btn-default btn-block" style="border: 1px solid red;color:red;"><span class="glyphicon glyphicon-lock" style="color:red;"></span> Parola Değiştir</div><br />
+                                                        }
+                                                        <a href="@Url.Action("UyelikIptal", "Account")" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-exclamation-sign"></span> Üyelik İptal</a><br />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <br />
+                        <p class="text-justify">
+                            @Model.Kullanici.Hakkinda
+                        </p>
+                    </div>
+
+                    <div class="col-sm-3 text-left">
+                        @if (@Model.Kullanici.IsTanimi != null)
+                        {
+                            <b>İş Tanımı</b><p>@Model.Kullanici.IsTanimi</p>
+                        }
+                        else
+                        {
+                            <b>İş Tanımı</b><p>Belirtilmemiş</p>
+                        }
+                        <br /><br />
+                        @if (Model.Kullanici.Ulke != null)
+                        {
+                            <b>Ülke</b><p>@Model.Kullanici.Ulke</p>
+                        }
+                        else
+                        {
+                            <b>Ülke</b><p>Belirtilmemiş</p>
+                        }
+                        <br /><br />
+                        <b>Katılma Tarihi</b><p>@Model.Kullanici.KatilmaTarihi</p>
+                        <br /><br />
+                        <div class="text-center">
+
+                            <a href="@Model.Kullanici.Facebook" class="btn btn-social-icon btn-facebook" target="_blank">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                            <a href="@Model.Kullanici.Twitter" class="btn btn-social-icon btn-twitter" target="_blank">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                            <a href="@Model.Kullanici.GitHub" class="btn btn-social-icon btn-github" target="_blank">
+                                <span class="fa fa-github"></span>
+                            </a>
+                            <a href="@Model.Kullanici.BitBucket" class="btn btn-social-icon btn-bitbucket" target="_blank">
+                                <span class="fa fa-bitbucket"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-left">
+                            <ul class="list-group">
+                                @if (Model.Takipciler != null)
+                                {
+                                    <li class="list-group-item">Takip <span class="badge">@Model.Takipciler.Count</span></li>
+                                }
+                                else
+                                {
+                                    <li class="list-group-item">Takip <span class="badge">0</span></li>
+                                }
+                                <li class="list-group-item">Cevap <span class="badge">@Model.CevapSayisi</span></li>
+                                <li class="list-group-item">Soru <span class="badge">@Model.SoruSayisi</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-left" style="background-color:#202020; color:whitesmoke;">
+                            Son Sorular
+                        </div>
+                        <div class="panel-body text-left">
+                            @if (Model.KullaniciSorulari != null && Model.KullaniciSorulari.Count != 0)
+                            {
+                                foreach (var item in Model.KullaniciSorulari)
+                                {
+                                    <div class="media-heading">
+                                        <h4>
+                                            @Model.Kullanici.UserName <small><i>@item.SorulmaTarihi</i></small>
+                                            <span style="float:right;">
+                                                @if (Model.Kullanici.Path == null)
+                                                {
+                                                    <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" style="width:45px">
+                                                }
+                                                else
+                                                {
+                                                    <img src="@Model.Kullanici.Path" class="img-circle" style="width:45px">
+                                                }
+                                            </span>
+                                        </h4>
+                                        <div class="media-body">
+                                            <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                                @item.SoruBaslik
+                                            </a>
+                                            <div class="media-body" style="display:inline-block;max-width:430px; max-height:130px;overflow:auto">
+                                                <p>@Html.Raw(@item.SoruIcerik)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                }
+                            }
+                            else
+                            {
+                                <p>Kullanıcının sorduğu herhangi bir soru bulunmuyor</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-left" style="background-color:#202020; color:whitesmoke;">
+                            Son Cevaplar
+                        </div>
+                        <div class="panel-body text-left">
+                            @if (Model.KullaniciCevaplari != null && Model.KullaniciCevaplari.Count != 0)
+                            {
+                                for (int i = 0; i < Model.KullaniciCevaplari.Count(); i++)
+                                {
+                                    <div class="media-heading">
+                                        <h4>
+                                            @Model.Kullanici.UserName<small>@Model.KullaniciCevaplari.ElementAt(i).CevapTarihi</small>
+                                            <span style="float:right;">
+                                                @if (Model.Kullanici.Path == null)
+                                                {
+                                                    <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" style="width:45px">
+                                                }
+                                                else
+                                                {
+                                                    <img src="@Model.Kullanici.Path" class="img-circle" style="width:45px">
+                                                }
+                                            </span>
+                                        </h4>
+                                        <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(Model.KullaniciCevapSorulari[i].SoruBaslik), SoruId = @Model.KullaniciCevapSorulari[i].Id })">
+                                            @Model.KullaniciCevapSorulari.ElementAt(i).SoruBaslik
+                                        </a>
+                                    </div>
+                                    <div class="media-body" style="display:inline-block;max-width:430px; max-height:130px;overflow:auto">
+                                        <div class="media-body">
+                                            <p>
+                                                @Html.Raw(@Model.KullaniciCevaplari.ElementAt(i).Cevap)
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                }
+                            }
+                            else
+                            {
+                                <p>Kullanıcının cevapladığı herhangi bir soru bulunmuyor</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

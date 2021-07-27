@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="identityConnection-Web.config Connection String" description="identityConnection Connection String used in web.config by the application to access the database." defaultValue="server=sql2012.isimtescil.net;Initial Catalog=bughelper1;User ID=bughelperadmin1;password=bughelpeR1@" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dream\\Documents\\GitHub\\bughelper\\bughelper\\BugHelper\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='identityConnection']/@connectionString" />
+  </parameter>
+  <parameter name="sorularConnection-Web.config Connection String" description="sorularConnection Connection String used in web.config by the application to access the database." defaultValue="server=sql2012.isimtescil.net;Initial Catalog=bughelper1;User ID=bughelperadmin1;password=bughelpeR1@" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dream\\Documents\\GitHub\\bughelper\\bughelper\\BugHelper\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sorularConnection']/@connectionString" />
+  </parameter>
+  <parameter name="IdentityDatabaseEntities-Web.config Connection String" description="IdentityDatabaseEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.UserDiagram.csdl|res://*/Models.UserDiagram.ssdl|res://*/Models.UserDiagram.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=sql2012.isimtescil.net;initial catalog=IdentityDatabase;User ID=bughelperadmin1;password=bughelpeR1@;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dream\\Documents\\GitHub\\bughelper\\bughelper\\BugHelper\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='IdentityDatabaseEntities']/@connectionString" />
+  </parameter>
+  <parameter name="sorularDatabaseEntities-Web.config Connection String" description="sorularDatabaseEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.SoruDiagram.csdl|res://*/Models.SoruDiagram.ssdl|res://*/Models.SoruDiagram.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=sql2012.isimtescil.net;initial catalog=sorularDatabase;User ID=bughelperadmin1;password=bughelpeR1@;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dream\\Documents\\GitHub\\bughelper\\bughelper\\BugHelper\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sorularDatabaseEntities']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=sql2012.isimtescil.net;Initial Catalog=aspnet-BugHelper-20191118135133;User ID=bughelperadmin1;password=bughelpeR1@;AttachDBFilename=|DataDirectory|\aspnet-BugHelper-20191118135133.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dream\\Documents\\GitHub\\bughelper\\bughelper\\BugHelper\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

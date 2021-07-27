@@ -1,0 +1,109 @@
+﻿@model BugHelper.Models.SorularPaged
+@using BugHelper.Scripts.SoruUrl @*FriendlyURLyi(urlde gösterdiğimiz başlık,kullanıcı adı gibi stringleri düzenlemek için kullandığımız sınıf) kullanmak için*@
+@using PagedList.Mvc
+@foreach (var item in Model.Sorular) //Soruları anasayfada göstermek için kullandığımız döngü.Herhangi bir filtreleme işlemi istenmemişse bu döngüye gelen sorular sadece tarihe göre azalan şeklinde sıralanır(bkz.HomeController satır 16)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            @if (@item.Onay == true)
+            {
+                <div class="panel panel-default text-center" style="overflow:auto;max-height:350px;">
+                    <div class="panel-body">
+                        <div class="col-md-2 col-sm-3 col-xs-3">
+                            <ul class="list-group text-center" style="font-size:9px;">
+                                <li class="list-group-item text-left"><span class="badge pull-left">@item.Deger</span> Beğeni</li>
+                                <li class="list-group-item text-left"><span class="badge pull-left">@item.CevapSayisi</span> Cevap</li>
+                                <li class="list-group-item text-left"><span class="badge pull-left">@item.TiklanmaSayisi</span> Görüldü</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10 col-sm-9 col-xs-9 text-left">
+                            <h4>
+                                <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                    @item.SoruBaslik
+                                </a>
+                            </h4>
+                            <p class="text-justify">
+                                @Html.Raw(@item.SoruIcerik)
+                                <small class="text-muted">
+                                    <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                        <text>Soruya git</text>
+                                    </a>
+                                </small>
+                            </p>
+                            <h5><span class="label label-primary">@item.KodlamaDili</span></h5>
+                            <div class="pull-right">
+                                <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(item.SoruSahibi), KullaniciAdi = item.SoruSahibi })" class="pull-right">
+                                    @if (item.SoruSahibiPath == null)
+                                    {
+                                        <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="65" width="65" alt="Avatar"> }
+                                    else
+                                    {
+                                        <img src="@item.SoruSahibiPath" class="img-circle" height="65" width="65" alt="Avatar">
+                                    }
+                                    <small class="text-muted">
+                                        @item.SoruSahibi
+                                    </small>
+                                </a>
+                            </div>
+                            <h4 class="pull-left">
+                                <small class="text-muted">@item.SorulmaTarihi</small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="panel panel-default text-center" style="overflow:auto;max-height:500px;border-color:red;">
+                    <div class="panel-body">
+                        <div class="col-sm-9 text-left">
+                            <h4 style="color:red;" title="Onaylanmadı">
+                                @item.SoruBaslik
+                            </h4>
+                            <p>
+                                @Html.Raw(@item.SoruIcerik)<small class="text-muted">
+                                    <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                    </a>
+                                </small>
+                            </p>
+                            <p>@Html.Raw(@item.SoruIcerik)</p>
+                            <h5><span class="label label-default">@item.KodlamaDili</span></h5>
+                            <h4 class="pull-right">
+                                <small class="text-muted">@item.SorulmaTarihi</small>
+
+                            </h4>
+                        </div>
+                        <div class="col-sm-2">
+                            <span class="warning pull-right alert alert-danger" style="color:red;padding-top:1px;padding-bottom:1px;">Onaylanmadı</span>
+                            @if (!@item.SoruSahibi.Contains("Misafir"))
+                            {
+                            <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(item.SoruSahibi), KullaniciAdi = item.SoruSahibi })" class="pull-right">
+                                @if (item.SoruSahibiPath == null)
+                                {
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="65" width="65" alt="Avatar">
+                                }
+                                else
+                                {
+                                <img src="@item.SoruSahibiPath" class="img-circle" height="65" width="65" alt="Avatar">
+                                }
+                                <small class="text-muted">
+                                    @item.SoruSahibi
+                                </small>
+                            </a>
+                            }
+                            else
+                            {
+                                <small class="text-muted">
+                                    @item.SoruSahibi
+                                </small>
+                            }
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+Sayfa @(Model.PagedList.PageCount < Model.PagedList.PageNumber ? 0 : Model.PagedList.PageNumber)/@Model.PagedList.PageCount
+@Html.PagedListPager(Model.PagedList, page => Url.Action("Index", new { page }))

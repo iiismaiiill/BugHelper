@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Oluştur";
+}
+
+<h2>Rol Oluştur</h2>
+<hr />
+
+@Html.ValidationSummary()
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" value="@Model" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Oluştur</button>
+}

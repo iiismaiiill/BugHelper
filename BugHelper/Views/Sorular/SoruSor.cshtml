@@ -1,0 +1,48 @@
+﻿@model BugHelper.Models.SorularModel
+@{
+    ViewBag.Title = "Soru Sor";
+}
+
+<div class="row">
+    @using (Html.BeginForm("SoruSor", "Sorular", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+
+            <legend class="text-left">Sorunu Yaz</legend>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="textinput">Soru Başlık :</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.SoruBaslik, new { type = "text", @class = "form-control", @required = "required" })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="textinput">Soru İçerik :</label>
+                <div class="col-md-10">
+                    @Html.TextAreaFor(m => m.SoruIcerik, new { @id = "editor1", @required = "required" })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="guncellebuton">Etiket :</label>
+                <div class="col-md-7 col-xs-12">
+                    @Html.DropDownListFor(i => i.KodlamaDili, new SelectList(ViewBag.Diller), new { @class = "form-control", @required = "required" })
+                    <br />
+                </div>
+                <div class="col-md-3 text-right">
+                    <button type="submit" class="btn btn-success"> Tamam</button>
+                    <a href="/Home/Index" class="btn btn-danger"> Vazgeç</a>
+                    <br /><br /><br />
+                </div>
+            </div>
+        </fieldset>
+    }
+</div>
+<script type="text/javascript">
+    var editor = CKEDITOR.instances['editor1'];
+    if (editor) { editor.destroy(true); }
+    CKEDITOR.replace('editor1', {
+        enterMode: CKEDITOR.ENTER_BR,
+    });
+</script>

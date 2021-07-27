@@ -1,0 +1,278 @@
+﻿@model BugHelper.Models.SorularPaged
+@using PagedList.Mvc
+@using BugHelper.Extensions;
+@using Microsoft.Owin.Security
+@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    .tag {
+        width: 54px;
+        height: 25px;
+        font-size: 9px;
+    }
+</style>
+<hr />
+
+<div class="row">
+    @Html.Raw(@TempData["Message"])
+    <div class="col-lg-3">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <div class="col-lg-3 col-xs-6">
+                                @if (Model.SoruIzleyici.Path == null)
+                                {
+                                    <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="65" width="65" alt="Avatar">
+                                }
+                                else
+                                {
+                                    <img src="@Model.SoruIzleyici.Path" class="img-circle" height="65" width="65" alt="Avatar">
+                                }
+                            </div>
+                            <div class="col-lg-9 col-xs-6">
+                                <p><b>@Model.SoruIzleyici.Ad @Model.SoruIzleyici.Soyad </b></p>
+                                <p><a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })">@User.Identity.Name</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-body">
+                        <p>
+                            @using (Ajax.BeginForm("SorularFiltre", "Home", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "sorular" }))
+                            {
+                                <button type="submit" class="label label-default tag" value="C#" name="etiketFiltre">csharp</button>
+                                <button type="submit" class="label label-primary tag" value="Java" name="etiketFiltre">java</button>
+                                <button type="submit" class="label label-success tag" value="AspNet" name="etiketFiltre">aspnet</button>
+                                <button type="submit" class="label label-info tag" value="C" name="etiketFiltre">c</button>
+                                <button type="submit" class="label label-warning tag" value="JavaScript" name="etiketFiltre">javascript</button>
+                                <button type="submit" class="label label-danger tag" value="Html" name="etiketFiltre">html</button>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 hidden-xs">
+                <div class="panel panel-default">
+                    <div class="panel-body text-left">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="/Home/Index">Ana Sayfa</a></li>
+                            <li><a href="/Home/Hakkimizda">Hakkımızda</a></li>
+                            <li><a href="/Kullanici/Iletisim">İletişim</a></li>
+                        </ul>
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-facebook">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                            <a class="btn btn-social-icon btn-twitter">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                            <a class="btn btn-social-icon btn-github">
+                                <span class="fa fa-github"></span>
+                            </a>
+                            <a class="btn btn-social-icon btn-bitbucket">
+                                <span class="fa fa-bitbucket"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-default">
+                        <div class="row">
+                            <div class="panel-body">
+                                <div class="col-sm-6 text-left">
+                                    <h4><b>Sorular</b></h4>
+                                </div>
+                                <div class="col-sm-6 text-right">
+                                    <a class="btn btn-info btn-block" href="/Sorular/SoruSor"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Soru Sor</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="panel-body">
+                                <div class="col-sm-3 text-left">
+                                    <p>@Model.Sorular.Count Soru</p>
+                                </div>
+                                @using (Ajax.BeginForm("SorularFiltre", "Home", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "sorular" }))
+                                {
+                                    <div class="col-sm-9">
+                                        <div class="btn-group btn-group-justified">
+                                            <button class="btn btn-default" type="submit" value="Yeniler" name="etiketFiltre" style="font-size:12px;width:auto;">Yeniler</button>
+                                            <button class="btn btn-default" type="submit" value="Pasif" name="etiketFiltre" style="font-size:12px;width:auto;">Pasif</button>
+                                            <button class="btn btn-default" type="submit" value="Beğenilenler" name="etiketFiltre" style="font-size:12px;width:auto;">Beğenilenler</button>
+                                            <button class="btn btn-default" type="submit" value="Cevapsızlar" name="etiketFiltre" style="font-size:12px;width:auto;">Cevapsızlar</button>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="style1" />
+        <div id="sorular">
+            @using BugHelper.Scripts.SoruUrl @*FriendlyURLyi(urlde gösterdiğimiz başlık,kullanıcı adı gibi stringleri düzenlemek için kullandığımız sınıf) kullanmak için*@
+            @foreach (var item in Model.Sorular) //Soruları anasayfada göstermek için kullandığımız döngü.Herhangi bir filtreleme işlemi istenmemişse bu döngüye gelen sorular sadece tarihe göre azalan şeklinde sıralanır(bkz.HomeController satır 16)
+            {
+                <div class="row">
+                    <div class="col-sm-12">
+                        @if (@item.Onay == true)
+                        {
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <div class="col-md-2 col-sm-3 col-xs-3">
+                                        <ul class="list-group text-center" style="font-size:9px;">
+                                            <li class="list-group-item text-left"><span class="badge pull-left">@item.Deger</span> Beğeni</li>
+                                            <li class="list-group-item text-left"><span class="badge pull-left">@item.CevapSayisi</span> Cevap</li>
+                                            <li class="list-group-item text-left"><span class="badge pull-left">@item.TiklanmaSayisi</span> Görüldü</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-10 col-sm-9 col-xs-9 text-left" style="overflow:auto;max-height:350px;">
+                                        <h4>
+                                            <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                                @item.SoruBaslik
+                                            </a>
+                                        </h4>
+                                        <p class="text-justify">
+                                            @Html.Raw(@item.SoruIcerik)
+                                            <small class="text-muted">
+                                                <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                                    <text>Soruya git</text>
+                                                </a>
+                                            </small>
+                                        </p>
+                                        <h5><span class="label label-primary">@item.KodlamaDili</span></h5>
+                                        <div class="pull-right">
+                                            @if (!@item.SoruSahibi.Contains("Misafir"))
+                                            {
+                                                <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(item.SoruSahibi), KullaniciAdi = item.SoruSahibi })" class="pull-right">
+                                                    @if (item.SoruSahibiPath == null)
+                                                    {
+                                                        <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="48" width="48">
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="@item.SoruSahibiPath" class="img-circle" height="48" width="48">
+                                                    }
+                                                    <small class="text-muted">
+                                                        @item.SoruSahibi
+                                                    </small>
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <small class="text-muted">
+                                                    @item.SoruSahibi
+                                                </small>
+                                            }
+                                        </div>
+                                        <h4 class="pull-left">
+                                            <small class="text-muted">@item.SorulmaTarihi</small>
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="panel panel-default text-center" style="overflow:auto;max-height:500px;border-color:red;">
+                                <div class="panel-body">
+                                    <div class="col-sm-9 text-left">
+                                        <h4 style="color:red;" title="Onaylanmadı">
+                                            @item.SoruBaslik
+                                        </h4>
+                                        <p>
+                                            @Html.Raw(@item.SoruIcerik)<small class="text-muted">
+                                                <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                                                </a>
+                                            </small>
+                                        </p>
+                                        <p>@Html.Raw(@item.SoruIcerik)</p>
+                                        <h5><span class="label label-default">@item.KodlamaDili</span></h5>
+                                        <h4 class="pull-right">
+                                            <small class="text-muted">@item.SorulmaTarihi</small>
+
+                                        </h4>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <span class="warning pull-right alert alert-danger" style="color:red;padding-top:1px;padding-bottom:1px;">Onaylanmadı</span>
+                                        @if (!@item.SoruSahibi.Contains("Misafir"))
+                                        {
+                                            <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(item.SoruSahibi), KullaniciAdi = item.SoruSahibi })" class="pull-right">
+                                                @if (item.SoruSahibiPath == null)
+                                                {
+                                                    <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="48" width="48">
+                                                }
+                                                else
+                                                {
+                                                    <img src="@item.SoruSahibiPath" class="img-circle" height="48" width="48">
+                                                }
+                                                <small class="text-muted">
+                                                    @item.SoruSahibi
+                                                </small>
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <small class="text-muted">
+                                                @item.SoruSahibi
+                                            </small>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+            Sayfa @(Model.PagedList.PageCount < Model.PagedList.PageNumber ? 0 : Model.PagedList.PageNumber)/@Model.PagedList.PageCount
+            @Html.PagedListPager(Model.PagedList, page => Url.Action("Index", new { page }))
+        </div>
+            
+        
+    </div>
+    <div class="col-lg-3">
+        <div class="row">
+            <div class="col-sm-12">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="text-center social-btn">
+                                <a href="/Account/RedirectToExternalLogin" class="btn btn-block btn-social btn-google">
+                                    <span class="fa fa-google"></span> Google ile Giriş
+                                </a>
+                                <a href="/Account/RedirectToExternalLoginFB" class="btn btn-block btn-social btn-facebook">
+                                    <span class="fa fa-facebook"></span> Facebook ile Giriş
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div id="haberler">
+            @Html.Action("Haberler", "Sorular")
+        </div>
+    </div>
+</div>
+

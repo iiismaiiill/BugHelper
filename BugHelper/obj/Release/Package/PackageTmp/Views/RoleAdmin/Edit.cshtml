@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "Editle";
+}
+
+
+@using (Html.BeginForm())
+{
+    <input type="hidden" name="roleName" value="@Model.Role.Name" />
+    <input type="hidden" name="RoleId" value="@Model.Role.Id" />
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            @Model.Role.Name rolüne ekle
+        </div>
+        <table class="table table-striped">
+            @if (Model.NonMembers.Count == 0)
+            {
+                <tr><td colspan="2">bu role eklenebilecek kullanıcı yok</td></tr>
+            }
+            else
+            {
+                <tr>
+                    <td>
+                        Kullanıcı
+                    </td>
+                    <td>Seç</td>
+                </tr>
+
+                foreach (var user in Model.NonMembers)
+                {
+                    <tr>
+                        <td>@user.UserName</td>
+                        <td>
+                            <input type="checkbox" name="IdsToAdd" value="@user.Id" />
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            @Model.Role.Name rolünden kaldır
+        </div>
+        <table class="table table-striped">
+            @if (Model.Members.Count == 0)
+            {
+                <tr><td colspan="2">bu role eklenmiş bir kullanıcı yok</td></tr>
+            }
+            else
+            {
+                <tr>
+                    <td>
+                        Kullanıcı
+                    </td>
+                    <td>Seç</td>
+                </tr>
+
+                foreach (var user in Model.Members)
+                {
+                    <tr>
+                        <td>@user.UserName</td>
+                        <td>
+                            <input type="checkbox" name="IdsToDelete" value="@user.Id" />
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+}

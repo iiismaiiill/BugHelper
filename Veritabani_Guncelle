@@ -1,0 +1,17 @@
+Uygulamayı çalıştırdığında veri tabanı hatası alanlar için veritabanı güncelleme;
+
+1-Tools>NuGet Package Manager>Package Manager Console tıklanıyız
+2-Uygulama içindeki "Migrations" klasörününün içinden "201910171643096_InitialCreate"(sayılar değişebilir) ve "Configuration" dışındaki cs
+dosyalarını siliyoruz
+3-Powershell'e add-migration Ad yazıp gönderiyoruz
+4-Sarı renkte background ile "The Designer Code for this migration file includes a snapshot of your current 
+Code First model. This snapshot is used to calculate the changes to your model when you scaffold the next migration.
+If you make additional changes to your model that you want to include in this migration, then you can re-scaffold it by running 
+'Add-Migration Ad' again." yazısını görmemiz gerekiyor
+5-update-database yazıp gönderiyoruz ve "Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Applying explicit migrations: [201910260004560_Ad].
+Applying explicit migration: 201910260004560_Ad.
+Running Seed method." yazısına benzer bir yazı görmemiz gerekiyor, ve databaseimiz güncellenmiş oluyor
+Genişlemeler
+4a- Veri tabanını güncellemeden uygulamayı çalıştırıp, kayıt oluşturmaya çalıştıktan sonra bu işlemi yaparsanız hata alabilirsiniz. Bu durumda 
+Visual Studio'yu kapatıp açın ve adımları tekrarlayın

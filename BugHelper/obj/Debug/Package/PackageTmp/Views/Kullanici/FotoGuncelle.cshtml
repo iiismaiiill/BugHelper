@@ -1,0 +1,57 @@
+﻿@model BugHelper.Models.FotoModel
+@{
+    ViewBag.Title = "FotoGuncelle";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    @using (Html.BeginForm("FotoGuncelle", "Kullanici", new { kullaniciAdi = User.Identity.Name }, FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                    {
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Profil Fotoğrafı Güncelle</legend>
+                            <div class="form-group">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    @if (Model.Path == null)
+                                    {
+                                        <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="150" width="150" alt="Avatar">
+                                    }
+                                    else
+                                    {
+                                        <img src="@Model.Path" class="img-circle" height="150" width="150" alt="Avatar">
+                                    }
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="filebutton">Fotoğraf Seç</label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(i => i.FotoFile, new { type = "file" })
+                                </div>
+                            </div>
+                            <div class="form-group text-center">
+                                <label class="col-md-4 control-label" for="singlebutton"></label>
+                                <div class="col-md-4">
+                                    <input type="submit" class="btn btn-success btn-block" value="Yükle" /><br />
+                                    <a href="/Profil/Index" class="btn btn-danger btn-block">Vazgeç</a>
+                                </div>
+                            </div>
+                            <div>
+                                @Html.Raw(ViewBag.Message)
+                            </div>
+                        </fieldset>
+                    }
+                    <p><b>Yüklemek istediğiniz fotoğraf'ın maksimum ebatı en-boy 500px olmalıdır.</b></p>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+
+</div>

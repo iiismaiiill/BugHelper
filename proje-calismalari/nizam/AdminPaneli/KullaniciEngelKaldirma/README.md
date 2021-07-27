@@ -1,0 +1,1 @@
+Yöneticinin kullanıcıların engellerini kaldırabilmesi için oluşturulan panelin view dosyası

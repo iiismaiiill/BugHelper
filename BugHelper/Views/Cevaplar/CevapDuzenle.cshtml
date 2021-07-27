@@ -1,0 +1,45 @@
+﻿@model BugHelper.Models.CevaplarModel
+@using BugHelper.Scripts.SoruUrl
+
+@{
+    ViewBag.Title = "Cevap Düzenle";
+}
+<div class="row">
+    @using (Html.BeginForm("CevapDuzenle", "Cevaplar", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+
+            <legend class="text-left">Cevap Düzenle</legend>
+            <div class="form-group text-left">
+                <label class="col-md-2 control-label" for="textinput">Cevap :</label>
+                <div class="col-md-10">
+                    @Html.TextAreaFor(m => m.Cevap, new { @id = "editor1", @value = Html.Raw(Model.Cevap) })
+                    <br />
+                </div>
+            </div>
+            <div class="col-md-3 text-right">
+                <button type="submit" class="btn btn-success"> Düzenle</button>
+                <a href="@Url.Action("Soru","Sorular",new { baslik = FriendlyURL.FriendlyURLTitle(Model.Soru.SoruBaslik), SoruId = Model.Soru.Id })" class="btn btn-danger"> Vazgeç</a>
+                <br /><br /><br />
+            </div>
+            @Html.HiddenFor(i => i.Id, Model.Id)
+            @Html.HiddenFor(i => i.Soru.SoruBaslik, Model.Soru.SoruBaslik)
+            @Html.HiddenFor(i => i.Soru.Id, Model.Soru.Id)
+        </fieldset>
+    }
+    @using (Html.BeginForm("CevapSil", "Cevaplar", FormMethod.Post))
+    {
+        <button type="submit" class="alert alert-primary" role="alert">Cevabı Sil</button>
+        @Html.HiddenFor(i => i.Id, Model.Id)
+        @Html.HiddenFor(i => i.Soru.SoruBaslik, Model.Soru.SoruBaslik)
+        @Html.HiddenFor(i => i.Soru.Id, Model.Soru.Id)
+    }
+</div>
+<script type="text/javascript">
+    var editor = CKEDITOR.instances['editor1'];
+    if (editor) { editor.destroy(true); }
+    CKEDITOR.replace('editor1', {
+        enterMode: CKEDITOR.ENTER_BR,
+    });
+</script>

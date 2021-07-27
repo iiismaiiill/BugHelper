@@ -1,0 +1,47 @@
+﻿@model BugHelper.Models.ExternalRegister
+
+@{
+    ViewBag.Title = "ExternalRegisterPage";
+}
+<div class="row text-center">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @Html.ValidationSummary()
+                @using (Html.BeginForm("ExternalRegisterPage", "Account"))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="text-center" style="padding-bottom:15px;">
+                        <a href="/Home/Index">
+                            <img src="~/img/bugg.png" height="40" width="40" alt="BugHelper">
+                        </a>
+                    </div>
+                    @Html.Raw(TempData["ExternalMessage"])
+                    @Html.Raw(ViewBag.Message)
+                    <div class="form-group">
+                        @Html.TextBoxFor(i => i.ExternalUserName, new { @class = "form-control", @type = "text", @placeholder = "Kullanıcı Adı" })
+                    </div>
+                    <div class="form-group">
+                        @if (Model != null)
+                        {
+                            <div class="alert alert-success" role="alert" style="overflow:hidden">
+                                ✔@Model.ExternalEmail
+                            </div>
+                            @Html.HiddenFor(i => i.ExternalEmail, Model.ExternalEmail)
+                            @Html.HiddenFor(i => i.Ad, Model.Ad)
+                            @Html.HiddenFor(i => i.Soyad, Model.Soyad)
+                            @Html.HiddenFor(i => i.ExternalLoginType, Model.ExternalLoginType)
+                        }
+
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-block signup-btn">Kayıt Ol</button>
+                    </div>
+                }
+                <div class="text-center small">Zaten üye misin? <a href="/Account/Login" style="text-decoration:underline;">Giris Yap</a></div>
+
+            </div>
+            </div>
+        </div>
+    </div>

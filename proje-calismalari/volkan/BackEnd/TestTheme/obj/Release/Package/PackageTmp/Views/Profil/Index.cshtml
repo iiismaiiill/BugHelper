@@ -1,0 +1,177 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutMain.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-sm-3">
+                    <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="150" width="150" alt="Avatar">
+                </div>
+                <div class="col-sm-6 text-left">
+                    <h3><b>AD SOYAD</b></h3>
+                    <div>
+                        <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span> Takip</a>
+                        <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-edit"></span> Düzenle</a>
+                        <div class="modal fade" tabindex="-1" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-sm" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background-color:#202020; color:whitesmoke;">
+                                        <button type="button" class="close" data-dismiss="modal" style="color:whitesmoke;">&times;</button>
+                                        <h4 class="modal-title">Profil Düzenle</h4>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <a href="/Profil/FotoGuncelle" class="btn btn-default btn-block"><span class="glyphicon glyphicon-user"></span> Fotoğraf Güncelle</a><br />
+                                                <a href="/Profil/ProfilDuzenle" class="btn btn-default btn-block"><span class="glyphicon glyphicon-edit"></span> Bilgileri Güncelle</a><br />
+                                                <a href="/Profil/EpostaDegistir" class="btn btn-default btn-block"><span class="glyphicon glyphicon-envelope"></span> EPosta Değiştir</a><br />
+                                                <a href="/Profil/ParolaDegistir" class="btn btn-default btn-block"><span class="glyphicon glyphicon-lock"></span> Parola Değiştir</a><br />
+                                                <a href="/Profil/TwoFactor" class="btn btn-default btn-block"><span class="glyphicon glyphicon-barcode"></span> 2FA</a><br />
+                                                <a href="/Profil/UyelikIptal" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-exclamation-sign"></span> Üyelik İptal</a><br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac erat at ipsum varius dapibus vitae sed tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ex eros, fringilla in lacinia quis, faucibus ut ipsum. Vivamus vulputate ultrices sapien id volutpat
+                    </p>
+                </div>
+
+                <div class="col-sm-3 text-left">
+                    <b>İş Tanım</b>
+                    <br /><br />
+                    <b>Ülke</b>
+                    <br /><br />
+                    <b>Katılma Tarihi</b>
+                    <br /><br />
+                    <div class="text-center">
+
+                        <a class="btn btn-social-icon btn-facebook">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a class="btn btn-social-icon btn-github">
+                            <span class="fa fa-github"></span>
+                        </a>
+                        <a class="btn btn-social-icon btn-bitbucket">
+                            <span class="fa fa-bitbucket"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-body text-left">
+                        <ul class="list-group">
+                            <li class="list-group-item">Takip <span class="badge">12</span></li>
+                            <li class="list-group-item">Cevap <span class="badge">5</span></li>
+                            <li class="list-group-item">Soru <span class="badge">3</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-left" style="background-color:#202020; color:whitesmoke;">
+                        Son Sorular
+                    </div>
+                    <div class="panel-body text-left">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="media-object" style="width:45px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="media-object" style="width:45px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="media-object" style="width:45px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-left" style="background-color:#202020; color:whitesmoke;">
+                        Son Cevaplar
+                    </div>
+                    <div class="panel-body text-left">
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="media-right">
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="media-object" style="width:45px">
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            </div>
+                            <div class="media-right">
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="media-object" style="width:45px">
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            </div>
+                            <div class="media-right">
+                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="media-object" style="width:45px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

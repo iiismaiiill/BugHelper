@@ -1,0 +1,45 @@
+﻿@model String
+@{
+    ViewBag.Title = "2 Aşamalı Giriş";
+}
+
+    <div id="msj"></div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        @using (Html.BeginForm("TwoFAEnable", "Account", new { @class = "form-horizontal" }))
+                        {
+                            <fieldset>
+                                <legend>2FA</legend>
+                                <label class="col-md-4 control-label">2FA Durumu:</label>
+                                <div class="col-md-3">
+                                    <span class="badge badge-light">@Model</span>
+                                </div>
+                                @if (Model.Equals("Aktif"))
+                                {
+                                    <div class="col-sm-4 text-sm-center">
+                                        <button type="submit" value="Pasif" name="durum" class="btn btn-warning signup-btn">2FA Devre dışı bırak</button>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col-sm-4 text-sm-center">
+                                        <button type="submit" value="Aktif" name="durum" class="btn btn-success signup-btn">2FA Etkinleştir</button>
+                                    </div>
+                                }
+                            </fieldset>
+                        }
+                        <div class="col-sm-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    function yonlendir() {
+        setTimeout(function () { location.href = '/Account/Login'; }, 700);
+    }
+</script>

@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/_LayoutMain.cshtml";
+}
+
+    <div class="row text-center">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form action="" class="login-form" method=post oninput='confirmPassword.setCustomValidity(confirmPassword.value != password.value ? "Parolalar uyuşmuyor." : "")'>
+                        <div class="text-center">
+                            <a href="/Default/Index">
+                                <img src="~/img/bughelper-dark.png" height="40" alt="BugHelper">
+                            </a>
+                        </div>
+                        <div class="row" style="margin-bottom:-15px;">
+                            <div class="text-center social-btn" style="margin-top:15px;">
+                                <div class="col-sm-6 col-xs-6">
+                                    <a class="btn btn-block btn-social btn-google">
+                                        <span class="fa fa-google"></span> Google
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <a class="btn btn-block btn-social btn-facebook">
+                                        <span class="fa fa-facebook"></span> Facebook
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="or-seperator"><b>veya</b></div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" placeholder="Kullanıcı Adı" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="E Mail" required="required" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Parola" required="required"
+                                   pattern="(?=.*\d)(?=.*[!#$%^&*_-])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="En az bir sayı, bir büyük ve küçük harf,bir özel karakter ve en az 8 veya daha fazla karakter içermelidir">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="confirmPassword" placeholder="Parola(Tekrar)" required="required"
+                                   pattern="(?=.*\d)(?=.*[!#$%^&*_-])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="En az bir sayı, bir büyük ve küçük harf,bir özel karakter ve en az 8 veya daha fazla karakter içermelidir">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-block">Kayıt Ol</button>
+                        </div>
+                    </form>
+                    <div class="text-center small">Zaten üye misin? <a href="/Login/Login" style="text-decoration:underline;">Giris Yap</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_LayoutMain.cshtml";
+}
+<div class="row text-center">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form action="" class="login-form" method="post">
+                    <div class="text-center">
+                        <a href="/Default/Index">
+                            <img src="~/img/bugg.png" height="40" width="40" alt="BugHelper">
+                        </a>
+                    </div>
+                    <div class="text-center social-btn">
+                        <a class="btn btn-block btn-social btn-google">
+                            <span class="fa fa-google"></span> Google ile Giriş
+                        </a>
+                        <a class="btn btn-block btn-social btn-facebook">
+                            <span class="fa fa-facebook"></span> Facebook ile Giriş
+                        </a>
+                    </div>
+                    <div class="or-seperator"><b>veya</b></div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Kullanıcı Adı" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Parola" required="required"
+                               pattern="(?=.*\d)(?=.*[!#$%^&*_-])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="En az bir sayı, bir büyük ve küçük harf,bir özel karakter ve en az 8 veya daha fazla karakter içermelidir">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-block signup-btn">Giriş Yap</button>
+                    </div>
+                    <div class="text-center small" style="text-decoration: underline; font-size: 14px;"><a href="/Login/ForgetPassword">Parolamı Unuttum</a></div>
+                    <br />
+                    <div class="text-center small">Henüz üye değil misin? <a href="/Login/Register" style="text-decoration:underline;">Kayıt Ol</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

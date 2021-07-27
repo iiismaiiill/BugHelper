@@ -1,0 +1,9 @@
+﻿@model List<BugHelper.Models.CevaplarModel>
+<div class="container" style="overflow:visible">
+    @foreach (var item in Model)
+    {
+        <div class="cevap">
+            @item.Cevap
+        </div>
+    }
+</div>

@@ -1,0 +1,18 @@
+﻿@using BugHelper.Scripts.SoruUrl
+@model BugHelper.Models.ProfilModel
+@{
+    ViewBag.Title = "Favori Sorular";
+}
+
+<h2>Favori Sorularım</h2>
+@if (Model != null)
+{
+    foreach (var item in Model.FavoriListesi)
+    {
+        <div class="kullanici" style="border:1px solid red;">
+            <a href="@Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(item.SoruBaslik), SoruId = item.Id })">
+                @item.SoruBaslik
+            </a>
+        </div>
+    }
+}

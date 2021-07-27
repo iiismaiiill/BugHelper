@@ -1,0 +1,31 @@
+﻿@model BugHelper.Models.SoruCevapModel
+    <style>
+        .linkButton {
+            background: none;
+            border: none;
+            color: #0066ff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+@using (Ajax.BeginForm("CevapOyla", "Sorular", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = Model.CevapId.ToString() }))
+{
+    <input type="hidden" value="@Model.CevapId" name="cevapId" />
+    <div id="upvoted-and-starred" class="upvotejs">
+        @if (Model.SoruCevapContext.ArtiOyCevaplar.Any(i => i.Cevap.Id == Model.CevapId && i.ArtiOySahibi == User.Identity.Name))
+        {
+            <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote-on"></a></button>
+            <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+        }
+        else if (Model.SoruCevapContext.EksiOyCevaplar.Any(i => i.Cevap.Id == Model.CevapId && i.EksiOySahibi == User.Identity.Name))
+        {
+            <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+            <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote-on"></a></button>
+        }
+        else
+        {
+            <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+            <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+        }
+    </div>
+}

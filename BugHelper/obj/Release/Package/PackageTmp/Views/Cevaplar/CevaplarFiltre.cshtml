@@ -1,0 +1,74 @@
+﻿@model BugHelper.Models.SoruCevapModel
+@using BugHelper.Scripts.SoruUrl
+@using PagedList.Mvc
+@for (int index = 0; index < Model.CevaplarModelForSoru.Count(); index++)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                    <div class="col-md-2 col-sm-3 col-xs-3">
+                        @if (User.Identity.IsAuthenticated && User.Identity.Name != "Misafir" && User.Identity.Name != Model.CevaplarModelForSoru[index].CevapSahibi)
+                        {
+                            int cevapId = Model.CevaplarModelForSoru[index].Id;
+                            <div id="@Model.CevaplarModelForSoru[index].Id.ToString()">
+                                @using (Ajax.BeginForm("CevapOyla", "Sorular", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = Model.CevaplarModelForSoru[index].Id.ToString() }))
+                                {
+                                    <input type="hidden" value="@Model.CevaplarModelForSoru[index].Id" name="cevapId" />
+                                    <div id="upvoted-and-starred" class="upvotejs">
+                                        @if (Model.SoruCevapContext.ArtiOyCevaplar.Any(i => i.Cevap.Id == cevapId && i.ArtiOySahibi == User.Identity.Name))
+                                        {
+                                            <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote-on"></a></button>
+                                            <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+                                        }
+                                        else if (Model.SoruCevapContext.EksiOyCevaplar.Any(i => i.Cevap.Id == cevapId && i.EksiOySahibi == User.Identity.Name))
+                                        {
+                                            <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+                                            <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote-on"></a></button>
+                                        }
+                                        else
+                                        {
+                                            <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+                                            <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+                                        }
+                                    </div>
+                                }
+                            </div>
+                        }
+                    </div>
+                    <div class="col-md-10 col-sm-9 col-xs-9 text-left">
+                        <p class="text-justify">@Html.Raw(@Model.CevaplarModelForSoru[index].Cevap)</p>
+                        @if (User.Identity.Name == Model.CevaplarModelForSoru[index].CevapSahibi || User.IsInRole("admin"))
+                        {
+                            using (Html.BeginForm("CevapDuzenle", "Cevaplar", FormMethod.Get))
+                            {
+                                <button type="submit" value="@Model.CevaplarModelForSoru[index].Id" name="cevapId" class="alert alert-primary" role="alert">Düzenle</button>
+                            }
+                        }
+                        <div class="pull-right">
+                            <p>
+                                <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(@Model.CevaplarModelForSoru[index].CevapSahibi), KullaniciAdi = @Model.CevaplarModelForSoru[index].CevapSahibi })">
+                                    @if (@Model.CevaplarModelForSoru[index].CevapSahibiPath == null)
+                                    {
+                                        <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle pull-right" height="48" width="48" alt="Avatar">
+                                    }
+                                    else
+                                    {
+                                        <img src="@Model.CevaplarModelForSoru[index].CevapSahibiPath.Substring(20)" class="img-circle pull-right" height="48" width="48" alt="Avatar">
+                                    }
+                                    @Model.CevaplarModelForSoru[index].CevapSahibi
+
+                                </a>
+                            </p>
+                        </div>
+                        <div class="pull-left">
+                            <small class="text-muted">@Model.CevaplarModelForSoru[index].CevapTarihi</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+Sayfa @(Model.PagedList.PageCount < Model.PagedList.PageNumber ? 0 : Model.PagedList.PageNumber)/@Model.PagedList.PageCount
+@Html.PagedListPager(Model.PagedList, page => Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(Model.Soru.SoruBaslik), SoruId = Model.Soru.Id, page }))

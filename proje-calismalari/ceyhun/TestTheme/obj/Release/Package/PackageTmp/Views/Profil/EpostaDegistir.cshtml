@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "EpostaDegistir";
+    Layout = "~/Views/_LayoutMain.cshtml";
+    @model TestTheme.Models.EmailVal
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    @using (Html.BeginForm("EpostaDegistir", "Profil", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                    {
+                        @Html.AntiForgeryToken()
+                    <fieldset>
+
+                        <legend class="text-left">E-Posta Değiştir</legend>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Geçerli E-Posta</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.CurrentEmail, new { type = "email", @class = "form-control", })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Yeni E-Posta</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.NewEmail, new { type = "email", @class = "form-control", })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Yeni E-Posta Tekrar</label>
+                            <div class="col-md-5">
+                                @Html.TextBoxFor(a => a.ConfirmEmail, new { type = "email", @class = "form-control", })
+                            </div>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <label class="col-md-4 control-label" for="singlebutton"></label>
+                            <div class="col-md-5">
+                                <button type="submit" class="btn btn-success btn-block">Güncelle</button>
+                                <a href="/Profil/Index" class="btn btn-danger btn-block">Vazgeç</a>
+                            </div>
+                        </div>
+                        @Html.Raw(ViewBag.Message)
+                    </fieldset>
+                    }
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "UyelikIptal";
+    Layout = "~/Views/_LayoutMain.cshtml";
+}
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <form class="form-horizontal" action="" method=post oninput='confirmPassword.setCustomValidity(confirmPassword.value != password.value ? "Parolalar uyuşmuyor." : "")'>
+                            <fieldset>
+
+                                <legend class="text-left">Üyelik İptal</legend>
+                                <h4><b>Hesabınızı sildiğinizde geri dönüş olmaz. Lütfen emin olun.</b></h4>
+
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">Geçerli Parola</label>
+                                    <div class="col-md-5">
+                                        <input type="password" class="form-control" name="password" placeholder="Parola" required="required"
+                                               pattern="(?=.*\d)(?=.*[!#$%^&*_-])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="En az bir sayı, bir büyük ve küçük harf,bir özel karakter ve en az 8 veya daha fazla karakter içermelidir">
+                                    </div>
+                                </div>
+
+                                <div class="form-group text-center">
+                                    <label class="col-md-4 control-label" for="singlebutton"></label>
+                                    <div class="col-md-5">
+                                        <button type="submit" class="btn btn-success btn-block">Hesabı Sil</button>
+                                        <a href="/Profil/Index" class="btn btn-danger btn-block">Vazgeç</a>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                        <div class="col-sm-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

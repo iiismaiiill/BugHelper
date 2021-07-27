@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IdentityDatabaseModelStoreContainer" CdmEntityContainer="IdentityDatabaseEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.AspNetRoles">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MyProperty" ColumnName="MyProperty" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.AspNetUserClaims">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.AspNetUserLogins">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="IsTanimi" ColumnName="IsTanimi" />
+          <ScalarProperty Name="Ulke" ColumnName="Ulke" />
+          <ScalarProperty Name="KatilmaTarihi" ColumnName="KatilmaTarihi" />
+          <ScalarProperty Name="SoruSayisi" ColumnName="SoruSayisi" />
+          <ScalarProperty Name="CevapSayisi" ColumnName="CevapSayisi" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="LinkedIn" ColumnName="LinkedIn" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="GitHub" ColumnName="GitHub" />
+          <ScalarProperty Name="Hakkinda" ColumnName="Hakkinda" />
+          <ScalarProperty Name="Kontrol" ColumnName="Kontrol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FavoriSorularModels">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.FavoriSorularModels">
+        <MappingFragment StoreEntitySet="FavoriSorularModels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FavoriSorular" ColumnName="FavoriSorular" />
+          <ScalarProperty Name="ApplicationUser_Id" ColumnName="ApplicationUser_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TakipciModels">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.TakipciModels">
+        <MappingFragment StoreEntitySet="TakipciModels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Takipci" ColumnName="Takipci" />
+          <ScalarProperty Name="ApplicationUser_Id" ColumnName="ApplicationUser_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TakipEttikleriModels">
+      <EntityTypeMapping TypeName="IdentityDatabaseModel.TakipEttikleriModels">
+        <MappingFragment StoreEntitySet="TakipEttikleriModels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TakipEttikleri" ColumnName="TakipEttikleri" />
+          <ScalarProperty Name="ApplicationUser_Id" ColumnName="ApplicationUser_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="IdentityDatabaseModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,1 @@
+Yöneticinin misafir kullanıcılar tarafından sorulan soruları onaylayabilmesi için oluşturulan panelin view dosyası

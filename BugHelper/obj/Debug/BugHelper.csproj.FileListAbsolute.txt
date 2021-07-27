@@ -1,0 +1,2348 @@
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\BugHelper.dll.config
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\BugHelper.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\BugHelper.pdb
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\csc.exe
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\csc.exe.config
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\csc.rsp
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\csi.exe
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\csi.exe.config
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\csi.rsp
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.AppContext.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Console.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.IO.Pipes.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.Claims.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.ValueTuple.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\vbc.exe
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\vbc.exe.config
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\vbc.rsp
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Antlr3.Runtime.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\EntityFramework.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\EntityFramework.SqlServer.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Newtonsoft.Json.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Helpers.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Mvc.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Optimization.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Razor.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.WebPages.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\WebGrease.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\EntityFramework.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\EntityFramework.SqlServer.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Helpers.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Mvc.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Optimization.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.Razor.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.WebPages.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Newtonsoft.Json.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Antlr3.Runtime.pdb
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+C:\Users\dream\source\repos\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+C:\Users\dream\source\repos\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+C:\Users\dream\source\repos\BugHelper\BugHelper\obj\Debug\BugHelper.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\obj\Debug\BugHelper.pdb
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Security.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Owin.dll
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Security.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dream\source\repos\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\BugHelper.dll.config
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\BugHelper.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\BugHelper.pdb
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\csc.exe
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\csc.exe.config
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\csc.rsp
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\csi.exe
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\csi.exe.config
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\csi.rsp
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.AppContext.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Console.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.IO.Pipes.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.Claims.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.ValueTuple.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\vbc.exe
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\vbc.exe.config
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\vbc.rsp
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Antlr3.Runtime.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\EntityFramework.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\EntityFramework.SqlServer.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Security.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Newtonsoft.Json.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Owin.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Helpers.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Mvc.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Optimization.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Razor.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.WebPages.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\WebGrease.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\EntityFramework.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\EntityFramework.SqlServer.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Security.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Helpers.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Mvc.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Optimization.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.Razor.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.WebPages.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Newtonsoft.Json.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Antlr3.Runtime.pdb
+C:\Users\dream\Desktop\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dream\Desktop\BugHelper\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+C:\Users\dream\Desktop\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+C:\Users\dream\Desktop\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+C:\Users\dream\Desktop\BugHelper\BugHelper\obj\Debug\BugHelper.dll
+C:\Users\dream\Desktop\BugHelper\BugHelper\obj\Debug\BugHelper.pdb
+D:\BugHelper\BugHelper\bin\BugHelper.dll.config
+D:\BugHelper\BugHelper\bin\BugHelper.dll
+D:\BugHelper\BugHelper\bin\BugHelper.pdb
+D:\BugHelper\BugHelper\bin\roslyn\csc.exe
+D:\BugHelper\BugHelper\bin\roslyn\csc.exe.config
+D:\BugHelper\BugHelper\bin\roslyn\csc.rsp
+D:\BugHelper\BugHelper\bin\roslyn\csi.exe
+D:\BugHelper\BugHelper\bin\roslyn\csi.exe.config
+D:\BugHelper\BugHelper\bin\roslyn\csi.rsp
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+D:\BugHelper\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BugHelper\BugHelper\bin\roslyn\System.AppContext.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Console.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.IO.Pipes.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.AccessControl.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.Claims.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Security.Principal.Windows.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.ValueTuple.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.dll
+D:\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BugHelper\BugHelper\bin\roslyn\vbc.exe
+D:\BugHelper\BugHelper\bin\roslyn\vbc.exe.config
+D:\BugHelper\BugHelper\bin\roslyn\vbc.rsp
+D:\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe
+D:\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+D:\BugHelper\BugHelper\bin\Antlr3.Runtime.dll
+D:\BugHelper\BugHelper\bin\EntityFramework.dll
+D:\BugHelper\BugHelper\bin\EntityFramework.SqlServer.dll
+D:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.dll
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.dll
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BugHelper\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+D:\BugHelper\BugHelper\bin\Newtonsoft.Json.dll
+D:\BugHelper\BugHelper\bin\Owin.dll
+D:\BugHelper\BugHelper\bin\System.Web.Helpers.dll
+D:\BugHelper\BugHelper\bin\System.Web.Mvc.dll
+D:\BugHelper\BugHelper\bin\System.Web.Optimization.dll
+D:\BugHelper\BugHelper\bin\System.Web.Razor.dll
+D:\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.dll
+D:\BugHelper\BugHelper\bin\System.Web.WebPages.dll
+D:\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.dll
+D:\BugHelper\BugHelper\bin\WebGrease.dll
+D:\BugHelper\BugHelper\bin\EntityFramework.xml
+D:\BugHelper\BugHelper\bin\EntityFramework.SqlServer.xml
+D:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.xml
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.xml
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BugHelper\BugHelper\bin\System.Web.Helpers.xml
+D:\BugHelper\BugHelper\bin\System.Web.Mvc.xml
+D:\BugHelper\BugHelper\bin\System.Web.Optimization.xml
+D:\BugHelper\BugHelper\bin\System.Web.Razor.xml
+D:\BugHelper\BugHelper\bin\System.Web.WebPages.xml
+D:\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.xml
+D:\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.xml
+D:\BugHelper\BugHelper\bin\Newtonsoft.Json.xml
+D:\BugHelper\BugHelper\bin\Antlr3.Runtime.pdb
+D:\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BugHelper\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+D:\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+D:\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+D:\BugHelper\BugHelper\obj\Debug\BugHelper.dll
+D:\BugHelper\BugHelper\obj\Debug\BugHelper.pdb
+D:\recovery\BugHelper1\BugHelper\bin\BugHelper.dll.config
+D:\recovery\BugHelper1\BugHelper\bin\BugHelper.dll
+D:\recovery\BugHelper1\BugHelper\bin\BugHelper.pdb
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\csc.exe
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\csc.exe.config
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\csc.rsp
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\csi.exe
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\csi.exe.config
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\csi.rsp
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.AppContext.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Console.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.IO.Compression.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.ValueTuple.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Xml.XPath.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\vbc.exe
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\vbc.exe.config
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\vbc.rsp
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\VBCSCompiler.exe
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+D:\recovery\BugHelper1\BugHelper\bin\Antlr3.Runtime.dll
+D:\recovery\BugHelper1\BugHelper\bin\EntityFramework.dll
+D:\recovery\BugHelper1\BugHelper\bin\EntityFramework.SqlServer.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Security.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+D:\recovery\BugHelper1\BugHelper\bin\Newtonsoft.Json.dll
+D:\recovery\BugHelper1\BugHelper\bin\Owin.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Helpers.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Mvc.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Optimization.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Razor.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.WebPages.Deployment.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.WebPages.dll
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.WebPages.Razor.dll
+D:\recovery\BugHelper1\BugHelper\bin\WebGrease.dll
+D:\recovery\BugHelper1\BugHelper\bin\EntityFramework.xml
+D:\recovery\BugHelper1\BugHelper\bin\EntityFramework.SqlServer.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Security.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Helpers.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Mvc.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Optimization.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.Razor.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.WebPages.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.WebPages.Deployment.xml
+D:\recovery\BugHelper1\BugHelper\bin\System.Web.WebPages.Razor.xml
+D:\recovery\BugHelper1\BugHelper\bin\Newtonsoft.Json.xml
+D:\recovery\BugHelper1\BugHelper\bin\Antlr3.Runtime.pdb
+D:\recovery\BugHelper1\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.dll
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.pdb
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Net.Http.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Net.Sockets.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\BugHelper1\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.Migrations.InitialCreate.resources
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.Migrations.Takipci.resources
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.Migrations.FavoriSorular.resources
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+D:\recovery\BugHelper1\BugHelper\obj\Debug\BugHelper.Migrations.Ad1.resources
+D:\recovery\BugHelper\BugHelper\bin\BugHelper.dll.config
+D:\recovery\BugHelper\BugHelper\bin\BugHelper.dll
+D:\recovery\BugHelper\BugHelper\bin\BugHelper.pdb
+D:\recovery\BugHelper\BugHelper\bin\roslyn\csc.exe
+D:\recovery\BugHelper\BugHelper\bin\roslyn\csc.exe.config
+D:\recovery\BugHelper\BugHelper\bin\roslyn\csc.rsp
+D:\recovery\BugHelper\BugHelper\bin\roslyn\csi.exe
+D:\recovery\BugHelper\BugHelper\bin\roslyn\csi.exe.config
+D:\recovery\BugHelper\BugHelper\bin\roslyn\csi.rsp
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\recovery\BugHelper\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.AppContext.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Console.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Net.Http.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Net.Sockets.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.ValueTuple.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\recovery\BugHelper\BugHelper\bin\roslyn\vbc.exe
+D:\recovery\BugHelper\BugHelper\bin\roslyn\vbc.exe.config
+D:\recovery\BugHelper\BugHelper\bin\roslyn\vbc.rsp
+D:\recovery\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe
+D:\recovery\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+D:\recovery\BugHelper\BugHelper\bin\Antlr3.Runtime.dll
+D:\recovery\BugHelper\BugHelper\bin\EntityFramework.dll
+D:\recovery\BugHelper\BugHelper\bin\EntityFramework.SqlServer.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+D:\recovery\BugHelper\BugHelper\bin\Newtonsoft.Json.dll
+D:\recovery\BugHelper\BugHelper\bin\Owin.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Helpers.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Mvc.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Optimization.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Razor.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.WebPages.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.dll
+D:\recovery\BugHelper\BugHelper\bin\WebGrease.dll
+D:\recovery\BugHelper\BugHelper\bin\EntityFramework.xml
+D:\recovery\BugHelper\BugHelper\bin\EntityFramework.SqlServer.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+D:\recovery\BugHelper\BugHelper\bin\Newtonsoft.Json.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Helpers.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Mvc.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Razor.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.WebPages.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Optimization.xml
+D:\recovery\BugHelper\BugHelper\bin\Antlr3.Runtime.pdb
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.dll
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.pdb
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Google.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Google.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.AspNet.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.Core.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.GoogleOAuth2.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Providers.dll
+D:\recovery\BugHelper\BugHelper\bin\Org.Mentalis.Security.Cryptography.dll
+D:\recovery\BugHelper\BugHelper\bin\Mono.Math.dll
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.AspNet.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.Core.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Web.Providers.xml
+D:\recovery\BugHelper\BugHelper\bin\Org.Mentalis.Security.Cryptography.xml
+D:\recovery\BugHelper\BugHelper\bin\Mono.Math.xml
+D:\recovery\BugHelper\BugHelper\bin\DotNetOpenAuth.FacebookOAuth2.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Facebook.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Facebook.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Http.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Http.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Http.Extensions.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Http.Primitives.xml
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.App.config
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.Migrations.InitialCreate.resources
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Win32.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\netstandard.dll
+D:\recovery\BugHelper\BugHelper\bin\System.AppContext.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Collections.Concurrent.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Collections.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Collections.NonGeneric.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Collections.Specialized.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ComponentModel.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ComponentModel.EventBasedAsync.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ComponentModel.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ComponentModel.TypeConverter.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Console.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Data.Common.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.Contracts.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.Debug.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.Process.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.StackTrace.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.Tools.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.TraceSource.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Diagnostics.Tracing.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Drawing.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Dynamic.Runtime.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Globalization.Calendars.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Globalization.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Globalization.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.Compression.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.Compression.ZipFile.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.FileSystem.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.FileSystem.DriveInfo.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.FileSystem.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.FileSystem.Watcher.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.IsolatedStorage.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.MemoryMappedFiles.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.Pipes.dll
+D:\recovery\BugHelper\BugHelper\bin\System.IO.UnmanagedMemoryStream.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Linq.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Linq.Expressions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Linq.Parallel.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Linq.Queryable.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Http.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.NameResolution.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.NetworkInformation.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Ping.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Requests.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Security.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.Sockets.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.WebHeaderCollection.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.WebSockets.Client.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Net.WebSockets.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ObjectModel.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Reflection.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Reflection.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Reflection.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Resources.Reader.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Resources.ResourceManager.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Resources.Writer.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Handles.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.InteropServices.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Numerics.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Serialization.Formatters.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Serialization.Json.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Serialization.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.Serialization.Xml.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Claims.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Cryptography.Algorithms.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Cryptography.Csp.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Cryptography.Encoding.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Cryptography.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Principal.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.SecureString.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Text.Encoding.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Text.Encoding.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Text.RegularExpressions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.Overlapped.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.Tasks.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.Tasks.Parallel.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.Thread.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.ThreadPool.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Threading.Timer.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ValueTuple.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Xml.ReaderWriter.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Xml.XDocument.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Xml.XmlDocument.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Xml.XmlSerializer.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Xml.XPath.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Xml.XPath.XDocument.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Identity.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Identity.Core.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.ObjectPool.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Options.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Primitives.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.WebEncoders.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Net.Http.Headers.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Win32.Registry.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Buffers.dll
+D:\recovery\BugHelper\BugHelper\bin\System.ComponentModel.Annotations.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Memory.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Numerics.Vectors.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.AccessControl.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Cryptography.Xml.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Permissions.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Security.Principal.Windows.dll
+D:\recovery\BugHelper\BugHelper\bin\System.Text.Encodings.Web.dll
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Identity.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Identity.Core.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.ObjectPool.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Options.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.Primitives.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Extensions.WebEncoders.xml
+D:\recovery\BugHelper\BugHelper\bin\Microsoft.Net.Http.Headers.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Buffers.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Memory.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Numerics.Vectors.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\recovery\BugHelper\BugHelper\bin\System.Text.Encodings.Web.xml
+D:\recovery\BugHelper\BugHelper\bin\SendGrid.dll
+D:\recovery\BugHelper\BugHelper\bin\SendGrid.pdb
+D:\recovery\BugHelper\BugHelper\bin\SendGrid.xml
+D:\recovery\BugHelper\BugHelper\obj\Debug\BugHelper.Migrations.Ad1.resources
+D:\recovery\BugHelper\BugHelper\bin\PagedList.dll
+D:\recovery\BugHelper\BugHelper\bin\PagedList.Mvc.dll
+D:\recovery\BugHelper\BugHelper\bin\PagedList.xml
+D:\recovery\BugHelper\BugHelper\bin\PagedList.Mvc.xml
+C:\BugHelper\BugHelper\bin\BugHelper.dll.config
+C:\BugHelper\BugHelper\bin\BugHelper.dll
+C:\BugHelper\BugHelper\bin\BugHelper.pdb
+C:\BugHelper\BugHelper\bin\roslyn\csc.exe
+C:\BugHelper\BugHelper\bin\roslyn\csc.exe.config
+C:\BugHelper\BugHelper\bin\roslyn\csc.rsp
+C:\BugHelper\BugHelper\bin\roslyn\csi.exe
+C:\BugHelper\BugHelper\bin\roslyn\csi.exe.config
+C:\BugHelper\BugHelper\bin\roslyn\csi.rsp
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\BugHelper\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.AppContext.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Console.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Net.Http.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Net.Sockets.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.ValueTuple.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.dll
+C:\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\BugHelper\BugHelper\bin\roslyn\vbc.exe
+C:\BugHelper\BugHelper\bin\roslyn\vbc.exe.config
+C:\BugHelper\BugHelper\bin\roslyn\vbc.rsp
+C:\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe
+C:\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\BugHelper\BugHelper\bin\Microsoft.Win32.Primitives.dll
+C:\BugHelper\BugHelper\bin\netstandard.dll
+C:\BugHelper\BugHelper\bin\System.AppContext.dll
+C:\BugHelper\BugHelper\bin\System.Collections.Concurrent.dll
+C:\BugHelper\BugHelper\bin\System.Collections.dll
+C:\BugHelper\BugHelper\bin\System.Collections.NonGeneric.dll
+C:\BugHelper\BugHelper\bin\System.Collections.Specialized.dll
+C:\BugHelper\BugHelper\bin\System.ComponentModel.dll
+C:\BugHelper\BugHelper\bin\System.ComponentModel.EventBasedAsync.dll
+C:\BugHelper\BugHelper\bin\System.ComponentModel.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.ComponentModel.TypeConverter.dll
+C:\BugHelper\BugHelper\bin\System.Console.dll
+C:\BugHelper\BugHelper\bin\System.Data.Common.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.Contracts.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.Debug.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.FileVersionInfo.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.Process.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.StackTrace.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.Tools.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.TraceSource.dll
+C:\BugHelper\BugHelper\bin\System.Diagnostics.Tracing.dll
+C:\BugHelper\BugHelper\bin\System.Drawing.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.Dynamic.Runtime.dll
+C:\BugHelper\BugHelper\bin\System.Globalization.Calendars.dll
+C:\BugHelper\BugHelper\bin\System.Globalization.dll
+C:\BugHelper\BugHelper\bin\System.Globalization.Extensions.dll
+C:\BugHelper\BugHelper\bin\System.IO.Compression.dll
+C:\BugHelper\BugHelper\bin\System.IO.Compression.ZipFile.dll
+C:\BugHelper\BugHelper\bin\System.IO.dll
+C:\BugHelper\BugHelper\bin\System.IO.FileSystem.dll
+C:\BugHelper\BugHelper\bin\System.IO.FileSystem.DriveInfo.dll
+C:\BugHelper\BugHelper\bin\System.IO.FileSystem.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.IO.FileSystem.Watcher.dll
+C:\BugHelper\BugHelper\bin\System.IO.IsolatedStorage.dll
+C:\BugHelper\BugHelper\bin\System.IO.MemoryMappedFiles.dll
+C:\BugHelper\BugHelper\bin\System.IO.Pipes.dll
+C:\BugHelper\BugHelper\bin\System.IO.UnmanagedMemoryStream.dll
+C:\BugHelper\BugHelper\bin\System.Linq.dll
+C:\BugHelper\BugHelper\bin\System.Linq.Expressions.dll
+C:\BugHelper\BugHelper\bin\System.Linq.Parallel.dll
+C:\BugHelper\BugHelper\bin\System.Linq.Queryable.dll
+C:\BugHelper\BugHelper\bin\System.Net.Http.dll
+C:\BugHelper\BugHelper\bin\System.Net.NameResolution.dll
+C:\BugHelper\BugHelper\bin\System.Net.NetworkInformation.dll
+C:\BugHelper\BugHelper\bin\System.Net.Ping.dll
+C:\BugHelper\BugHelper\bin\System.Net.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.Net.Requests.dll
+C:\BugHelper\BugHelper\bin\System.Net.Security.dll
+C:\BugHelper\BugHelper\bin\System.Net.Sockets.dll
+C:\BugHelper\BugHelper\bin\System.Net.WebHeaderCollection.dll
+C:\BugHelper\BugHelper\bin\System.Net.WebSockets.Client.dll
+C:\BugHelper\BugHelper\bin\System.Net.WebSockets.dll
+C:\BugHelper\BugHelper\bin\System.ObjectModel.dll
+C:\BugHelper\BugHelper\bin\System.Reflection.dll
+C:\BugHelper\BugHelper\bin\System.Reflection.Extensions.dll
+C:\BugHelper\BugHelper\bin\System.Reflection.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.Resources.Reader.dll
+C:\BugHelper\BugHelper\bin\System.Resources.ResourceManager.dll
+C:\BugHelper\BugHelper\bin\System.Resources.Writer.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Extensions.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Handles.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.InteropServices.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Numerics.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Serialization.Formatters.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Serialization.Json.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Serialization.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.Serialization.Xml.dll
+C:\BugHelper\BugHelper\bin\System.Security.Claims.dll
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.Algorithms.dll
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.Csp.dll
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.Encoding.dll
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.X509Certificates.dll
+C:\BugHelper\BugHelper\bin\System.Security.Principal.dll
+C:\BugHelper\BugHelper\bin\System.Security.SecureString.dll
+C:\BugHelper\BugHelper\bin\System.Text.Encoding.dll
+C:\BugHelper\BugHelper\bin\System.Text.Encoding.Extensions.dll
+C:\BugHelper\BugHelper\bin\System.Text.RegularExpressions.dll
+C:\BugHelper\BugHelper\bin\System.Threading.dll
+C:\BugHelper\BugHelper\bin\System.Threading.Overlapped.dll
+C:\BugHelper\BugHelper\bin\System.Threading.Tasks.dll
+C:\BugHelper\BugHelper\bin\System.Threading.Tasks.Parallel.dll
+C:\BugHelper\BugHelper\bin\System.Threading.Thread.dll
+C:\BugHelper\BugHelper\bin\System.Threading.ThreadPool.dll
+C:\BugHelper\BugHelper\bin\System.Threading.Timer.dll
+C:\BugHelper\BugHelper\bin\System.ValueTuple.dll
+C:\BugHelper\BugHelper\bin\System.Xml.ReaderWriter.dll
+C:\BugHelper\BugHelper\bin\System.Xml.XDocument.dll
+C:\BugHelper\BugHelper\bin\System.Xml.XmlDocument.dll
+C:\BugHelper\BugHelper\bin\System.Xml.XmlSerializer.dll
+C:\BugHelper\BugHelper\bin\System.Xml.XPath.dll
+C:\BugHelper\BugHelper\bin\System.Xml.XPath.XDocument.dll
+C:\BugHelper\BugHelper\bin\Antlr3.Runtime.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.AspNet.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.Core.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.FacebookOAuth2.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.GoogleOAuth2.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\BugHelper\BugHelper\bin\EntityFramework.dll
+C:\BugHelper\BugHelper\bin\EntityFramework.SqlServer.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Identity.dll
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Identity.Core.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.ObjectPool.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Options.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Primitives.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.WebEncoders.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Net.Http.Headers.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Google.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Win32.Registry.dll
+C:\BugHelper\BugHelper\bin\Newtonsoft.Json.dll
+C:\BugHelper\BugHelper\bin\Owin.dll
+C:\BugHelper\BugHelper\bin\PagedList.dll
+C:\BugHelper\BugHelper\bin\PagedList.Mvc.dll
+C:\BugHelper\BugHelper\bin\SendGrid.dll
+C:\BugHelper\BugHelper\bin\System.Buffers.dll
+C:\BugHelper\BugHelper\bin\System.ComponentModel.Annotations.dll
+C:\BugHelper\BugHelper\bin\System.Memory.dll
+C:\BugHelper\BugHelper\bin\System.Net.Http.Extensions.dll
+C:\BugHelper\BugHelper\bin\System.Net.Http.Primitives.dll
+C:\BugHelper\BugHelper\bin\System.Numerics.Vectors.dll
+C:\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\BugHelper\BugHelper\bin\System.Security.AccessControl.dll
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.Xml.dll
+C:\BugHelper\BugHelper\bin\System.Security.Permissions.dll
+C:\BugHelper\BugHelper\bin\System.Security.Principal.Windows.dll
+C:\BugHelper\BugHelper\bin\System.Text.Encodings.Web.dll
+C:\BugHelper\BugHelper\bin\System.Web.Helpers.dll
+C:\BugHelper\BugHelper\bin\System.Web.Mvc.dll
+C:\BugHelper\BugHelper\bin\System.Web.Optimization.dll
+C:\BugHelper\BugHelper\bin\System.Web.Providers.dll
+C:\BugHelper\BugHelper\bin\System.Web.Razor.dll
+C:\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.dll
+C:\BugHelper\BugHelper\bin\System.Web.WebPages.dll
+C:\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.dll
+C:\BugHelper\BugHelper\bin\WebGrease.dll
+C:\BugHelper\BugHelper\bin\Org.Mentalis.Security.Cryptography.dll
+C:\BugHelper\BugHelper\bin\Mono.Math.dll
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.AspNet.xml
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.Core.xml
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.xml
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.xml
+C:\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\BugHelper\BugHelper\bin\EntityFramework.xml
+C:\BugHelper\BugHelper\bin\EntityFramework.SqlServer.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Identity.xml
+C:\BugHelper\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Identity.Core.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.ObjectPool.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Options.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.Primitives.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.WebEncoders.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Net.Http.Headers.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Google.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\BugHelper\BugHelper\bin\Newtonsoft.Json.xml
+C:\BugHelper\BugHelper\bin\PagedList.xml
+C:\BugHelper\BugHelper\bin\PagedList.Mvc.xml
+C:\BugHelper\BugHelper\bin\SendGrid.pdb
+C:\BugHelper\BugHelper\bin\SendGrid.xml
+C:\BugHelper\BugHelper\bin\System.Buffers.xml
+C:\BugHelper\BugHelper\bin\System.Memory.xml
+C:\BugHelper\BugHelper\bin\System.Net.Http.Extensions.xml
+C:\BugHelper\BugHelper\bin\System.Net.Http.Primitives.xml
+C:\BugHelper\BugHelper\bin\System.Numerics.Vectors.xml
+C:\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\BugHelper\BugHelper\bin\System.Text.Encodings.Web.xml
+C:\BugHelper\BugHelper\bin\System.Web.Helpers.xml
+C:\BugHelper\BugHelper\bin\System.Web.Mvc.xml
+C:\BugHelper\BugHelper\bin\System.Web.Providers.xml
+C:\BugHelper\BugHelper\bin\System.Web.Razor.xml
+C:\BugHelper\BugHelper\bin\System.Web.WebPages.xml
+C:\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.xml
+C:\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.xml
+C:\BugHelper\BugHelper\bin\System.Web.Optimization.xml
+C:\BugHelper\BugHelper\bin\Antlr3.Runtime.pdb
+C:\BugHelper\BugHelper\bin\Org.Mentalis.Security.Cryptography.xml
+C:\BugHelper\BugHelper\bin\Mono.Math.xml
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.App.config
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.dll
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.pdb
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Facebook.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Facebook.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\BugHelper\BugHelper\bin\System.IO.Pipelines.dll
+C:\BugHelper\BugHelper\bin\System.Threading.Tasks.Extensions.dll
+C:\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\BugHelper\BugHelper\bin\Microsoft.Win32.Registry.xml
+C:\BugHelper\BugHelper\bin\System.IO.Pipelines.xml
+C:\BugHelper\BugHelper\bin\System.Security.AccessControl.xml
+C:\BugHelper\BugHelper\bin\System.Security.Cryptography.Xml.xml
+C:\BugHelper\BugHelper\bin\System.Security.Permissions.xml
+C:\BugHelper\BugHelper\bin\System.Security.Principal.Windows.xml
+C:\BugHelper\BugHelper\bin\System.Threading.Tasks.Extensions.xml
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+C:\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+D:\recovery\BugHelper1j\BugHelper\bin\BugHelper.dll.config
+D:\recovery\BugHelper1j\BugHelper\bin\BugHelper.dll
+D:\recovery\BugHelper1j\BugHelper\bin\BugHelper.pdb
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\csc.exe
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\csc.exe.config
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\csc.rsp
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\csi.exe
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\csi.exe.config
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\csi.rsp
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.AppContext.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Console.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.IO.Compression.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Net.Http.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Net.Sockets.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.ValueTuple.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Xml.XPath.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\vbc.exe
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\vbc.exe.config
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\vbc.rsp
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\VBCSCompiler.exe
+D:\recovery\BugHelper1j\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Win32.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\netstandard.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.AppContext.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Collections.Concurrent.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Collections.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Collections.NonGeneric.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Collections.Specialized.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ComponentModel.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ComponentModel.EventBasedAsync.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ComponentModel.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ComponentModel.TypeConverter.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Console.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Data.Common.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.Contracts.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.Debug.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.Process.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.StackTrace.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.Tools.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.TraceSource.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Diagnostics.Tracing.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Drawing.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Dynamic.Runtime.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Globalization.Calendars.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Globalization.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Globalization.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.Compression.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.Compression.ZipFile.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.FileSystem.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.FileSystem.DriveInfo.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.FileSystem.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.FileSystem.Watcher.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.IsolatedStorage.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.MemoryMappedFiles.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.Pipes.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.UnmanagedMemoryStream.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Linq.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Linq.Expressions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Linq.Parallel.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Linq.Queryable.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Http.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.NameResolution.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.NetworkInformation.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Ping.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Requests.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Security.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Sockets.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.WebHeaderCollection.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.WebSockets.Client.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.WebSockets.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ObjectModel.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Reflection.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Reflection.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Reflection.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Resources.Reader.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Resources.ResourceManager.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Resources.Writer.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Handles.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.InteropServices.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Numerics.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Serialization.Formatters.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Serialization.Json.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Serialization.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.Serialization.Xml.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Claims.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.Algorithms.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.Csp.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.Encoding.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Principal.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.SecureString.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Text.Encoding.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Text.Encoding.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Text.RegularExpressions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Overlapped.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Tasks.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Tasks.Parallel.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Thread.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.ThreadPool.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Timer.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ValueTuple.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Xml.ReaderWriter.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Xml.XDocument.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Xml.XmlDocument.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Xml.XmlSerializer.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Xml.XPath.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Xml.XPath.XDocument.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Antlr3.Runtime.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.AspNet.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.Core.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.FacebookOAuth2.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.GoogleOAuth2.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OAuth.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OpenId.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\recovery\BugHelper1j\BugHelper\bin\EntityFramework.dll
+D:\recovery\BugHelper1j\BugHelper\bin\EntityFramework.SqlServer.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Identity.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Configuration.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Identity.Core.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Logging.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.ObjectPool.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Options.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.WebEncoders.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Net.Http.Headers.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.Facebook.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.Google.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Win32.Registry.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Newtonsoft.Json.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Owin.dll
+D:\recovery\BugHelper1j\BugHelper\bin\PagedList.dll
+D:\recovery\BugHelper1j\BugHelper\bin\PagedList.Mvc.dll
+D:\recovery\BugHelper1j\BugHelper\bin\SendGrid.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Buffers.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.ComponentModel.Annotations.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.Pipelines.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Memory.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Http.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Http.Primitives.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Numerics.Vectors.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.AccessControl.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.Xml.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Permissions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Principal.Windows.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Text.Encodings.Web.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Tasks.Extensions.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Helpers.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Mvc.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Optimization.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Providers.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Razor.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.WebPages.Deployment.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.WebPages.dll
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.WebPages.Razor.dll
+D:\recovery\BugHelper1j\BugHelper\bin\WebGrease.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Org.Mentalis.Security.Cryptography.dll
+D:\recovery\BugHelper1j\BugHelper\bin\Mono.Math.dll
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.AspNet.xml
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.Core.xml
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OAuth.xml
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OpenId.xml
+D:\recovery\BugHelper1j\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\recovery\BugHelper1j\BugHelper\bin\EntityFramework.xml
+D:\recovery\BugHelper1j\BugHelper\bin\EntityFramework.SqlServer.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.Identity.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Configuration.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Identity.Core.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Logging.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.ObjectPool.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Options.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.Primitives.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Extensions.WebEncoders.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Net.Http.Headers.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.Facebook.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.Google.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Microsoft.Win32.Registry.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Newtonsoft.Json.xml
+D:\recovery\BugHelper1j\BugHelper\bin\PagedList.xml
+D:\recovery\BugHelper1j\BugHelper\bin\PagedList.Mvc.xml
+D:\recovery\BugHelper1j\BugHelper\bin\SendGrid.pdb
+D:\recovery\BugHelper1j\BugHelper\bin\SendGrid.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Buffers.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.IO.Pipelines.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Memory.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Http.Extensions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Net.Http.Primitives.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Numerics.Vectors.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.AccessControl.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Cryptography.Xml.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Permissions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Security.Principal.Windows.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Text.Encodings.Web.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Threading.Tasks.Extensions.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Helpers.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Mvc.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Providers.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Razor.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.WebPages.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.WebPages.Deployment.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.WebPages.Razor.xml
+D:\recovery\BugHelper1j\BugHelper\bin\System.Web.Optimization.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Antlr3.Runtime.pdb
+D:\recovery\BugHelper1j\BugHelper\bin\Org.Mentalis.Security.Cryptography.xml
+D:\recovery\BugHelper1j\BugHelper\bin\Mono.Math.xml
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.csproj.App.config
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.csproj.CoreCompileInputs.cache
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.dll
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.pdb
+D:\recovery\BugHelper1j\BugHelper\obj\Debug\BugHelper.Migrations.Ad1.resources
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\BugHelper.dll.config
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\BugHelper.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\BugHelper.pdb
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\csc.exe
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\csc.exe.config
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\csc.rsp
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\csi.exe
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\csi.exe.config
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\csi.rsp
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.AppContext.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Console.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Net.Http.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Net.Sockets.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.ValueTuple.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\vbc.exe
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\vbc.exe.config
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\vbc.rsp
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Win32.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\netstandard.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.AppContext.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Collections.Concurrent.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Collections.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Collections.NonGeneric.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Collections.Specialized.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ComponentModel.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ComponentModel.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Console.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Data.Common.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.Contracts.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.Debug.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.Process.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.StackTrace.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.Tools.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.TraceSource.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Diagnostics.Tracing.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Drawing.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Dynamic.Runtime.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Globalization.Calendars.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Globalization.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Globalization.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.Compression.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.Compression.ZipFile.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.FileSystem.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.IsolatedStorage.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.Pipes.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Linq.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Linq.Expressions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Linq.Parallel.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Linq.Queryable.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Http.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.NameResolution.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.NetworkInformation.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Ping.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Requests.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Security.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Sockets.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.WebHeaderCollection.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.WebSockets.Client.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.WebSockets.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ObjectModel.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Reflection.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Reflection.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Reflection.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Resources.Reader.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Resources.ResourceManager.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Resources.Writer.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Handles.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.InteropServices.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Numerics.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Serialization.Json.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Claims.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.Csp.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Principal.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.SecureString.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Text.Encoding.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Text.Encoding.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Text.RegularExpressions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Overlapped.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Tasks.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Thread.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.ThreadPool.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Timer.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ValueTuple.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Xml.ReaderWriter.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Xml.XDocument.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Xml.XmlDocument.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Xml.XmlSerializer.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Xml.XPath.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Xml.XPath.XDocument.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Antlr3.Runtime.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.Core.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.FacebookOAuth2.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.GoogleOAuth2.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\EntityFramework.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\EntityFramework.SqlServer.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Identity.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Options.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Win32.Registry.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Newtonsoft.Json.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Owin.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\PagedList.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\PagedList.Mvc.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\SendGrid.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Buffers.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.ComponentModel.Annotations.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.Pipelines.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Memory.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Http.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Http.Primitives.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Numerics.Vectors.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.AccessControl.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.Xml.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Permissions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Principal.Windows.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Text.Encodings.Web.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Helpers.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Mvc.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Optimization.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Providers.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Razor.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.WebPages.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\WebGrease.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Mono.Math.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.Core.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\EntityFramework.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\EntityFramework.SqlServer.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.Identity.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Options.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Microsoft.Win32.Registry.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Newtonsoft.Json.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\PagedList.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\PagedList.Mvc.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\SendGrid.pdb
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\SendGrid.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Buffers.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.IO.Pipelines.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Memory.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Http.Extensions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Net.Http.Primitives.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Numerics.Vectors.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.AccessControl.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Cryptography.Xml.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Permissions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Security.Principal.Windows.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Text.Encodings.Web.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Helpers.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Mvc.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Providers.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Razor.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.WebPages.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.WebPages.Razor.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\System.Web.Optimization.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Antlr3.Runtime.pdb
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\bin\Mono.Math.xml
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.App.config
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.Migrations.Ad1.resources
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.dll
+C:\Users\dream\Documents\GitHub\bughelper\BugHelper\BugHelper\obj\Debug\BugHelper.pdb
+D:\recovery\Yeni klasör\BugHelper\bin\BugHelper.dll.config
+D:\recovery\Yeni klasör\BugHelper\bin\BugHelper.dll
+D:\recovery\Yeni klasör\BugHelper\bin\BugHelper.pdb
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\csc.exe
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\csc.exe.config
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\csc.rsp
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\csi.exe
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\csi.exe.config
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\csi.rsp
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.AppContext.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Console.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.IO.Compression.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Net.Http.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Net.Sockets.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.ValueTuple.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Xml.XPath.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\vbc.exe
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\vbc.exe.config
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\vbc.rsp
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\VBCSCompiler.exe
+D:\recovery\Yeni klasör\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Win32.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\netstandard.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.AppContext.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Collections.Concurrent.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Collections.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Collections.NonGeneric.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Collections.Specialized.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ComponentModel.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ComponentModel.EventBasedAsync.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ComponentModel.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ComponentModel.TypeConverter.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Console.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Data.Common.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.Contracts.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.Debug.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.FileVersionInfo.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.Process.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.StackTrace.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.Tools.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.TraceSource.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Diagnostics.Tracing.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Drawing.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Dynamic.Runtime.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Globalization.Calendars.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Globalization.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Globalization.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.Compression.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.Compression.ZipFile.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.FileSystem.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.FileSystem.DriveInfo.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.FileSystem.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.FileSystem.Watcher.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.IsolatedStorage.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.MemoryMappedFiles.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.Pipes.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.UnmanagedMemoryStream.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Linq.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Linq.Expressions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Linq.Parallel.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Linq.Queryable.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.NameResolution.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.NetworkInformation.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Ping.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Requests.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Security.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Sockets.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.WebHeaderCollection.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.WebSockets.Client.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.WebSockets.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ObjectModel.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Reflection.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Reflection.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Reflection.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Resources.Reader.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Resources.ResourceManager.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Resources.Writer.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Handles.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.InteropServices.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Numerics.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Serialization.Formatters.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Serialization.Json.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Serialization.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.Serialization.Xml.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Claims.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.Algorithms.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.Csp.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.Encoding.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.X509Certificates.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Principal.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.SecureString.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Text.Encoding.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Text.Encoding.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Text.RegularExpressions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Overlapped.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Tasks.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Tasks.Parallel.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Thread.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.ThreadPool.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Timer.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ValueTuple.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Xml.ReaderWriter.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Xml.XDocument.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Xml.XmlDocument.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Xml.XmlSerializer.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Xml.XPath.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Xml.XPath.XDocument.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Antlr3.Runtime.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.AspNet.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.Core.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.FacebookOAuth2.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.GoogleOAuth2.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OAuth.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OpenId.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\recovery\Yeni klasör\BugHelper\bin\EntityFramework.dll
+D:\recovery\Yeni klasör\BugHelper\bin\EntityFramework.SqlServer.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Identity.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Configuration.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Identity.Core.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Logging.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.ObjectPool.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Options.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.WebEncoders.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Net.Http.Headers.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.Facebook.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.Google.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Win32.Registry.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Newtonsoft.Json.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Owin.dll
+D:\recovery\Yeni klasör\BugHelper\bin\PagedList.dll
+D:\recovery\Yeni klasör\BugHelper\bin\PagedList.Mvc.dll
+D:\recovery\Yeni klasör\BugHelper\bin\SendGrid.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Buffers.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.ComponentModel.Annotations.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.Pipelines.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Memory.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.Primitives.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Numerics.Vectors.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.AccessControl.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.Xml.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Permissions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Principal.Windows.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Text.Encodings.Web.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Tasks.Extensions.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Helpers.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Mvc.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Optimization.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Providers.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Razor.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.WebPages.Deployment.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.WebPages.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.WebPages.Razor.dll
+D:\recovery\Yeni klasör\BugHelper\bin\WebGrease.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Org.Mentalis.Security.Cryptography.dll
+D:\recovery\Yeni klasör\BugHelper\bin\Mono.Math.dll
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.AspNet.xml
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.Core.xml
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OAuth.xml
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OpenId.xml
+D:\recovery\Yeni klasör\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\recovery\Yeni klasör\BugHelper\bin\EntityFramework.xml
+D:\recovery\Yeni klasör\BugHelper\bin\EntityFramework.SqlServer.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.Identity.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Configuration.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Identity.Core.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Logging.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.ObjectPool.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Options.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.Primitives.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Extensions.WebEncoders.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Net.Http.Headers.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.Facebook.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.Google.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Microsoft.Win32.Registry.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Newtonsoft.Json.xml
+D:\recovery\Yeni klasör\BugHelper\bin\PagedList.xml
+D:\recovery\Yeni klasör\BugHelper\bin\PagedList.Mvc.xml
+D:\recovery\Yeni klasör\BugHelper\bin\SendGrid.pdb
+D:\recovery\Yeni klasör\BugHelper\bin\SendGrid.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Buffers.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.IO.Pipelines.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Memory.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.Extensions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.Primitives.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Numerics.Vectors.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.AccessControl.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Cryptography.Xml.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Permissions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Security.Principal.Windows.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Text.Encodings.Web.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Threading.Tasks.Extensions.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Helpers.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Mvc.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Providers.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Razor.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.WebPages.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.WebPages.Deployment.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.WebPages.Razor.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Optimization.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Antlr3.Runtime.pdb
+D:\recovery\Yeni klasör\BugHelper\bin\Org.Mentalis.Security.Cryptography.xml
+D:\recovery\Yeni klasör\BugHelper\bin\Mono.Math.xml
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.csproj.App.config
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.Migrations.Ad1.resources
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.dll
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.pdb
+D:\recovery\Yeni klasör\BugHelper\obj\Debug\BugHelper.Migrations.Ad2.resources
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.Formatting.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Http.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Http.WebHost.dll
+D:\recovery\Yeni klasör\BugHelper\bin\System.Net.Http.Formatting.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Http.xml
+D:\recovery\Yeni klasör\BugHelper\bin\System.Web.Http.WebHost.xml
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\bin\System.Net.Http.Formatting.dll
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\bin\System.Web.Http.dll
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\bin\System.Web.Http.WebHost.dll
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\bin\System.Net.Http.Formatting.xml
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\bin\System.Web.Http.xml
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\bin\System.Web.Http.WebHost.xml
+C:\Users\dream\Documents\GitHub\bughelper\bughelper\BugHelper\obj\Debug\BugHelper.Migrations.Ad2.resources
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\BugHelper.dll.config
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\BugHelper.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\BugHelper.pdb
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\csc.exe
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\csc.exe.config
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\csc.rsp
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\csi.exe
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\csi.exe.config
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\csi.rsp
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.AppContext.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Console.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.IO.Compression.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Net.Http.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.ValueTuple.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\vbc.exe
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\vbc.exe.config
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\vbc.rsp
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\VBCSCompiler.exe
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Win32.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\netstandard.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.AppContext.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Collections.Concurrent.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Collections.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Collections.NonGeneric.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Collections.Specialized.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ComponentModel.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ComponentModel.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Console.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Data.Common.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.Contracts.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.Debug.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.Process.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.StackTrace.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.Tools.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.TraceSource.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Diagnostics.Tracing.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Drawing.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Dynamic.Runtime.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Globalization.Calendars.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Globalization.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Globalization.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.Compression.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.Compression.ZipFile.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.FileSystem.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.IsolatedStorage.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.Pipes.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Linq.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Linq.Expressions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Linq.Parallel.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Linq.Queryable.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.NameResolution.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.NetworkInformation.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Ping.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Requests.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Security.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Sockets.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.WebHeaderCollection.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.WebSockets.Client.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.WebSockets.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ObjectModel.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Reflection.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Reflection.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Reflection.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Resources.Reader.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Resources.ResourceManager.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Resources.Writer.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Handles.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.InteropServices.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Numerics.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Serialization.Json.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Claims.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.Csp.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Principal.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.SecureString.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Text.Encoding.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Text.Encoding.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Text.RegularExpressions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Overlapped.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Tasks.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Thread.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.ThreadPool.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Timer.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ValueTuple.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Xml.ReaderWriter.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Xml.XDocument.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Xml.XmlDocument.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Xml.XmlSerializer.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Xml.XPath.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Xml.XPath.XDocument.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Antlr3.Runtime.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.Core.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.FacebookOAuth2.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.GoogleOAuth2.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\EntityFramework.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\EntityFramework.SqlServer.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Identity.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Logging.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Options.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Win32.Registry.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Newtonsoft.Json.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Owin.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\PagedList.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\PagedList.Mvc.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\SendGrid.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Buffers.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.ComponentModel.Annotations.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.Pipelines.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Memory.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.Formatting.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.Primitives.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Numerics.Vectors.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.AccessControl.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.Xml.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Permissions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Principal.Windows.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Text.Encodings.Web.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Helpers.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Http.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Http.WebHost.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Mvc.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Optimization.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Providers.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Razor.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.WebPages.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.WebPages.Razor.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\WebGrease.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Mono.Math.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.Core.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\EntityFramework.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\EntityFramework.SqlServer.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.Identity.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Logging.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Options.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Microsoft.Win32.Registry.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Newtonsoft.Json.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\PagedList.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\PagedList.Mvc.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\SendGrid.pdb
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\SendGrid.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Buffers.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.IO.Pipelines.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Memory.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.Extensions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.Formatting.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Net.Http.Primitives.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Numerics.Vectors.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.AccessControl.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Cryptography.Xml.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Permissions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Security.Principal.Windows.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Text.Encodings.Web.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Helpers.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Http.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Http.WebHost.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Mvc.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Providers.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Razor.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.WebPages.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.WebPages.Razor.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\System.Web.Optimization.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Antlr3.Runtime.pdb
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\bin\Mono.Math.xml
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.csproj.App.config
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.csprojAssemblyReference.cache
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.Migrations.Ad.resources
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.Migrations.Ad1.resources
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.Migrations.Ad2.resources
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.csproj.GenerateResource.cache
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.csproj.CopyComplete
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.dll
+C:\Users\ceyhunataykan\Documents\works\bughelper-backend\bughelper-master-2\BugHelper\obj\Debug\BugHelper.pdb

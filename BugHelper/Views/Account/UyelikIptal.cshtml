@@ -1,0 +1,49 @@
+﻿@using BugHelper.Scripts.SoruUrl
+
+@{
+    ViewBag.Title = "Üyelik İptal";
+}
+<div id="parola-degistir">
+    <div id="msj"></div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        @Html.ValidationSummary()
+                        @using (Ajax.BeginForm("UyelikIptal", "Account", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "msj" }, new { @class = "form-horizontal" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <fieldset>
+                                <legend class="text-left">Üyelik İptali</legend>
+                                <h4><b>Hesabınızı sildiğinizde geri dönüş olmaz. Lütfen emin olun.</b></h4>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">Geçerli Parola</label>
+                                    <div class="col-md-5">
+                                        <input class="form-control" id="parola" name="parola" type="password" placeholder="Parola" required="required" pattern="(?=.*\d)(?=.*[!#$%^&*_-])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="En az bir sayı, bir büyük ve küçük harf,bir özel karakter ve en az 8 veya daha fazla karakter içermelidir">
+                                    </div>
+                                </div>
+                                <div class="form-group text-center">
+                                    <label class="col-md-4 control-label" for="singlebutton"></label>
+                                    <div class="col-md-5">
+                                        <button type="submit" class="btn btn-success btn-block">Hesabı Sil</button>
+                                        <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })" class="btn btn-danger btn-block">Vazgeç</a>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        }
+                        <div class="col-sm-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    function yonlendir() {
+        setTimeout(function () { location.href = '/Account/Login'; }, 700);
+    }
+</script>

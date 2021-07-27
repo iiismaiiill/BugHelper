@@ -1,0 +1,142 @@
+body {
+    color: #434343;
+    font-size : 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form{
+    padding : 20px 20px 20px 20px;
+}
+
+.form-control {
+    font-size: 12px;
+    transition: all 0.4s;
+    box-shadow: none;
+}
+
+.form-control, .btn {
+    border-radius: 5px;
+    outline: none !important;
+}
+.navbar .navbar-form .form-group .navbar-search {
+    width: 730px;
+}
+
+.signin-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px 0;
+    padding-top: 45px;
+}
+
+    .signin-form form {
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 40px;
+    }
+
+    .signin-form a {
+        color: black;
+    }
+
+    .signin-form h2 {
+        text-align: center;
+        font-size: 34px;
+        margin: 10px 0 15px;
+    }
+
+    .signin-form .hint-text {
+        color: #999;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .signin-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .signin-form .btn {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .signin-form .small {
+        font-size: 13px;
+    }
+
+.signup-btn {
+    text-align: center;
+    border-color: grey;
+    transition: all 0.4s;
+}
+
+    .signup-btn:hover {
+        background: grey;
+        opacity: 0.8;
+    }
+
+.or-seperator {
+    margin: 50px 0 15px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+    .or-seperator b {
+        padding: 0 10px;
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 40px;
+        background: #fff;
+        display: inline-block;
+        border: 1px solid #e0e0e0;
+        border-radius: 50%;
+        position: relative;
+        top: -22px;
+        z-index: 1;
+    }
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202020;
+    color: whitesmoke;
+    padding: 15px;
+    margin-top : 20px;
+}
+
+.social-btn .btn {
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+
+    .social-btn .btn i {
+        float: left;
+        margin: 4px 15px 0 5px;
+        min-width: 15px;
+    }
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size:11px;
+    }
+    /* For mobile phones: */
+    .navbar .navbar-form .form-group .navbar-search {
+        width: 200px;
+    }
+    .input-group .form-control, .input-group-addon, .input-group-btn{
+        display:block;
+    }
+}

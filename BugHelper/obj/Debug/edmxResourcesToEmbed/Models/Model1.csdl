@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sorularDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ArtiOys">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ArtiOySahibi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Soru_Id" Type="Int32" />
+    <NavigationProperty Name="SorularModels" Relationship="Self.FK_dbo_ArtiOys_dbo_SorularModels_Soru_Id" FromRole="ArtiOys" ToRole="SorularModels" />
+  </EntityType>
+  <EntityType Name="CevaplarModels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cevap" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CevapSahibi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CevapTarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SorularModelId" Type="Int32" Nullable="false" />
+    <Property Name="Onay" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EksiOys">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EksiOySahibi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Soru_Id" Type="Int32" />
+    <NavigationProperty Name="SorularModels" Relationship="Self.FK_dbo_EksiOys_dbo_SorularModels_Soru_Id" FromRole="EksiOys" ToRole="SorularModels" />
+  </EntityType>
+  <EntityType Name="Etikets">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Etiketler" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Soru_Id" Type="Int32" />
+    <NavigationProperty Name="SorularModels" Relationship="Self.FK_dbo_Etikets_dbo_SorularModels_Soru_Id" FromRole="Etikets" ToRole="SorularModels" />
+  </EntityType>
+  <EntityType Name="SorularModels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoruIcerik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoruBaslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SorulmaTarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SoruSahibi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Onay" Type="Boolean" Nullable="false" />
+    <Property Name="TiklanmaSayisi" Type="Int32" Nullable="false" />
+    <Property Name="CevapSayisi" Type="Int32" Nullable="false" />
+    <Property Name="Deger" Type="Int32" Nullable="false" />
+    <Property Name="KodlamaDili" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ArtiOys" Relationship="Self.FK_dbo_ArtiOys_dbo_SorularModels_Soru_Id" FromRole="SorularModels" ToRole="ArtiOys" />
+    <NavigationProperty Name="EksiOys" Relationship="Self.FK_dbo_EksiOys_dbo_SorularModels_Soru_Id" FromRole="SorularModels" ToRole="EksiOys" />
+    <NavigationProperty Name="Etikets" Relationship="Self.FK_dbo_Etikets_dbo_SorularModels_Soru_Id" FromRole="SorularModels" ToRole="Etikets" />
+  </EntityType>
+  <Association Name="FK_dbo_ArtiOys_dbo_SorularModels_Soru_Id">
+    <End Role="SorularModels" Type="Self.SorularModels" Multiplicity="0..1" />
+    <End Role="ArtiOys" Type="Self.ArtiOys" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SorularModels">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ArtiOys">
+        <PropertyRef Name="Soru_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_EksiOys_dbo_SorularModels_Soru_Id">
+    <End Role="SorularModels" Type="Self.SorularModels" Multiplicity="0..1" />
+    <End Role="EksiOys" Type="Self.EksiOys" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SorularModels">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EksiOys">
+        <PropertyRef Name="Soru_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Etikets_dbo_SorularModels_Soru_Id">
+    <End Role="SorularModels" Type="Self.SorularModels" Multiplicity="0..1" />
+    <End Role="Etikets" Type="Self.Etikets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SorularModels">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Etikets">
+        <PropertyRef Name="Soru_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sorularDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="ArtiOys" EntityType="Self.ArtiOys" />
+    <EntitySet Name="CevaplarModels" EntityType="Self.CevaplarModels" />
+    <EntitySet Name="EksiOys" EntityType="Self.EksiOys" />
+    <EntitySet Name="Etikets" EntityType="Self.Etikets" />
+    <EntitySet Name="SorularModels" EntityType="Self.SorularModels" />
+    <AssociationSet Name="FK_dbo_ArtiOys_dbo_SorularModels_Soru_Id" Association="Self.FK_dbo_ArtiOys_dbo_SorularModels_Soru_Id">
+      <End Role="SorularModels" EntitySet="SorularModels" />
+      <End Role="ArtiOys" EntitySet="ArtiOys" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_EksiOys_dbo_SorularModels_Soru_Id" Association="Self.FK_dbo_EksiOys_dbo_SorularModels_Soru_Id">
+      <End Role="SorularModels" EntitySet="SorularModels" />
+      <End Role="EksiOys" EntitySet="EksiOys" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Etikets_dbo_SorularModels_Soru_Id" Association="Self.FK_dbo_Etikets_dbo_SorularModels_Soru_Id">
+      <End Role="SorularModels" EntitySet="SorularModels" />
+      <End Role="Etikets" EntitySet="Etikets" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,315 @@
+﻿@model BugHelper.Models.SoruCevapModel
+@using PagedList.Mvc
+@using BugHelper.Extensions;
+@using BugHelper.Scripts.SoruUrl
+@{
+    ViewBag.Title = "Soru";
+}
+<style>
+    .linkButton {
+        background: none;
+        border: none;
+        color: #0066ff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>
+<div class="row">
+    <div class="col-sm-3">
+        @if (User.Identity.IsAuthenticated)
+        {
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <div class="col-sm-3">
+                                @if (Model.SoruIzleyıcı.Path == null)
+                                {
+                                    <img src="http://api.randomuser.me/portraits/thumb/men/19.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                                }
+                                else
+                                {
+                                    <img src="@Model.SoruIzleyıcı.Path.Substring(20)" class="img-circle" height="65" width="65" alt="Avatar">
+                                }
+                            </div>
+                            <div class="col-sm-9">
+                                <p><b>@Model.SoruIzleyıcı.Ad @Model.SoruIzleyıcı.Soyad </b></p>
+                                <p><a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(User.Identity.Name), KullaniciAdi = User.Identity.Name })">@User.Identity.Name</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="row">
+            <div class="col-sm-12 hidden-xs">
+                <div class="panel panel-default">
+                    <div class="panel-body text-left">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="/Home/Index">Ana Sayfa</a></li>
+                            <li><a href="/Home/Hakkimizda">Hakkımızda</a></li>
+                            <li><a href="/Home/Iletisim">İletişim</a></li>
+                        </ul>
+                        <br />
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/bug.helper.98" class="btn btn-social-icon btn-facebook" target="_blank">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                            <a href="https://twitter.com/bug_helper" class="btn btn-social-icon btn-twitter" target="_blank">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                            <a href="https://github.com/bughelperteam" class="btn btn-social-icon btn-github" target="_blank">
+                                <span class="fa fa-github"></span>
+                            </a>
+                            <a href="https://bitbucket.org/asimsinanyuksel/bughelper/src/master/" class="btn btn-social-icon btn-bitbucket" target="_blank">
+                                <span class="fa fa-bitbucket"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-body">
+                        <div class="col-md-2 col-sm-3 col-xs-3">
+                            @if (User.Identity.IsAuthenticated && User.Identity.Name != "Misafir" && User.Identity.Name != Model.Soru.SoruSahibi)
+                            {
+                                <div id="oyla">
+                                    @using (Ajax.BeginForm("SoruOyla", "Sorular", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "oyla" }, new { @id = "soru-oyla" }))
+                                    {
+                                        <input type="hidden" value="@Model.SoruId" name="soruId" />
+                                        <div id="upvoted-and-starred" class="upvotejs">
+                                            @if (Model.SoruCevapContext.ArtiOy.Any(i => i.Soru.Id == Model.SoruId && i.ArtiOySahibi == User.Identity.Name))
+                                            {
+                                                <button class="linkButton" id="arti" type="submit" value="arti" name="oy"><a class="upvote upvote-on"></a></button>
+                                                <button class="linkButton" id="eksi" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+
+                                            }
+                                            else if (Model.SoruCevapContext.EksiOy.Any(i => i.Soru.Id == Model.SoruId && i.EksiOySahibi == User.Identity.Name))
+                                            {
+                                                <button class="linkButton" id="arti" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+                                                <button class="linkButton" id="eksi" type="submit" value="eksi" name="oy"><a class="downvote downvote-on"></a></button>
+                                            }
+                                            else
+                                            {
+                                                <button class="linkButton" id="arti" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+                                                <button class="linkButton" id="eksi" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                                <div id="favoriye-ekle">
+                                    @using (Ajax.BeginForm("Favori", "Kullanici", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "favoriye-ekle" }))
+                                    {
+                                        <div id="upvoted-and-starred" class="upvotejs">
+                                            @if (Model.FavorideMi != true)
+                                            {
+                                                <button class="linkButton" id="favoributton" type="submit" value="@Model.SoruId" name="soruId"><a class="star star"></a></button>
+
+                                            }
+                                            else
+                                            {
+                                                <button class="linkButton" id="favoributton" type="submit" value="@Model.SoruId" name="soruId"><a class="star star-on"></a></button>
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+
+                        <div class="col-md-10 col-sm-9 col-xs-9 text-left" style="overflow:auto;max-height:350px;">
+                            @Html.Raw(@TempData["Duzenlendi"])
+                            <h4>@Model.Soru.SoruBaslik</h4>
+                            @if (User.Identity.Name == Model.Soru.SoruSahibi || User.IsInRole("admin"))
+                            {
+                                using (Html.BeginForm("SoruDuzenle", "Sorular", FormMethod.Get))
+                                {
+                                    <button type="submit" value="@Model.SoruId" name="soruId" class="alert alert-primary" role="alert">Düzenle</button>
+                                }
+                            }
+
+                            <p style="overflow:auto" class="text-justify">@Html.Raw(@Model.Soru.SoruIcerik)</p>
+                            <h5><span class="label label-primary">@Model.Soru.KodlamaDili</span></h5>
+                            <div class="pull-right">
+                                <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(@Model.Soru.SoruSahibi), KullaniciAdi = @Model.Soru.SoruSahibi })">
+                                    @if (@Model.Soru.SoruSahibiPath == null)
+                                    {
+                                        <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle pull-right" height="48" width="48" alt="Avatar">
+                                    }
+                                    else
+                                    {
+                                        <img src="@Model.Soru.SoruSahibiPath.Substring(20)" class="img-circle pull-right" height="48" width="48" alt="Avatar">
+                                    }
+                                    @Model.Soru.SoruSahibi
+                                </a>
+                            </div>
+                            <div class="pull-left">
+                                <small class="text-muted">@Model.Soru.SorulmaTarihi</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="style1" />
+        <div class="row">
+            <div class="panel-body">
+                <div class="col-sm-3 text-left">
+                    <p><b>@Model.CevapSayisi Cevap</b></p>
+                </div>
+                @using (Ajax.BeginForm("CevaplarFiltre", "Cevaplar", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "cevaplarfiltreid" }))
+                {
+                    <div class="col-sm-9">
+                        <div class="btn-group btn-group-justified">
+                            <input type="hidden" value="@Model.SoruId" name="soruId" />
+                            <button class="btn btn-default" type="submit" value="Yeniler" name="etiketFiltre" style="font-size:10px;width:auto;">Yeniler</button>
+                            <button class="btn btn-default" type="submit" value="Beğenilenler" name="etiketFiltre" style="font-size:10px;width:auto;">Beğeniye göre sırala</button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div id="cevaplarfiltreid">
+            @for (int index = 0; index < Model.CevaplarModelForSoru.Count(); index++)
+            {
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <div class="col-md-2 col-sm-3 col-xs-3">
+                                    @if (User.Identity.IsAuthenticated && User.Identity.Name != "Misafir" && User.Identity.Name != Model.CevaplarModelForSoru[index].CevapSahibi)
+                                    {
+                                        int cevapId = Model.CevaplarModelForSoru[index].Id;
+                                        <div id="@Model.CevaplarModelForSoru[index].Id.ToString()">
+                                            @using (Ajax.BeginForm("CevapOyla", "Sorular", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = Model.CevaplarModelForSoru[index].Id.ToString() }))
+                                            {
+                                                <input type="hidden" value="@Model.CevaplarModelForSoru[index].Id" name="cevapId" />
+                                                <div id="upvoted-and-starred" class="upvotejs">
+                                                    @if (Model.SoruCevapContext.ArtiOyCevaplar.Any(i => i.Cevap.Id == cevapId && i.ArtiOySahibi == User.Identity.Name))
+                                                    {
+                                                        <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote-on"></a></button>
+                                                        <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+                                                    }
+                                                    else if (Model.SoruCevapContext.EksiOyCevaplar.Any(i => i.Cevap.Id == cevapId && i.EksiOySahibi == User.Identity.Name))
+                                                    {
+                                                        <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+                                                        <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote-on"></a></button>
+                                                    }
+                                                    else
+                                                    {
+                                                        <button class="linkButton" id="articevap" type="submit" value="arti" name="oy"><a class="upvote upvote"></a></button>
+                                                        <button class="linkButton" id="eksicevap" type="submit" value="eksi" name="oy"><a class="downvote downvote"></a></button>
+                                                    }
+                                                </div>
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                                <div class="col-md-10 col-sm-9 col-xs-9 text-left" style="overflow:auto;max-height:350px;">
+                                    <p class="text-justify">@Html.Raw(@Model.CevaplarModelForSoru[index].Cevap)</p>
+                                    @if (User.Identity.Name == Model.CevaplarModelForSoru[index].CevapSahibi || User.IsInRole("admin"))
+                                    {
+                                        using (Html.BeginForm("CevapDuzenle", "Cevaplar", FormMethod.Get))
+                                        {
+                                            <button type="submit" value="@Model.CevaplarModelForSoru[index].Id" name="cevapId" class="alert alert-primary" role="alert">Düzenle</button>
+                                        }
+                                    }
+                                    <div class="pull-right">
+                                        <a href="@Url.Action("ProfilGoruntule", "Kullanici", new { takmaAd = @FriendlyURL.FriendlyURLTitle(Model.CevaplarModelForSoru[index].CevapSahibi), KullaniciAdi = Model.CevaplarModelForSoru[index].CevapSahibi })">
+                                            @if (@Model.CevaplarModelForSoru[index].CevapSahibiPath == null)
+                                            {
+                                                <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle pull-right" height="48" width="48" alt="Avatar">
+                                            }
+                                            else
+                                            {
+                                                <img src="@Model.CevaplarModelForSoru[index].CevapSahibiPath.Substring(20)" class="img-circle pull-right" height="48" width="48" alt="Avatar">
+                                            }
+                                            @Model.CevaplarModelForSoru[index].CevapSahibi
+                                        </a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <small class="text-muted">@Model.CevaplarModelForSoru[index].CevapTarihi</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            Sayfa @(Model.PagedList.PageCount < Model.PagedList.PageNumber ? 0 : Model.PagedList.PageNumber)/@Model.PagedList.PageCount
+            @Html.PagedListPager(Model.PagedList, page => Url.Action("Soru", "Sorular", new { baslik = @FriendlyURL.FriendlyURLTitle(Model.Soru.SoruBaslik), SoruId = Model.SoruId, page }))
+        </div>
+        <hr class="style1" />
+        @using (Ajax.BeginForm("Cevapla", "Cevaplar", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "msj" }))
+        {
+            <div class="form-group text-left">
+                <div class="col-md-12">
+                    <p><b>Cevap Yaz</b></p>
+                    <input type="hidden" value="@Model.SoruId" name="soruIdCevap" />
+
+                    <textarea name="gelenCevap" id="editor1" rows="10" cols="80">            
+                    </textarea>
+                    <br />
+                </div>
+            </div>
+            <div id="msj"></div>
+            <div class="col-md-12 text-right">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <button id="cevapGonder" type="submit" class="btn btn-success" onclick="yonlendirCevap()"> Cevap Gönder</button>
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-primary" name="misafir" onclick="yonlendirCevap()" value="1"> Misafir Cevap Gönder</button>
+
+                }
+
+                <a href="/Home/Index" class="btn btn-danger"> Vazgeç</a>
+                <br /><br /><br />
+            </div>
+        }
+    </div>
+    <div class="col-lg-3">
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="text-center social-btn">
+                                <a href="/Account/RedirectToExternalLogin" class="btn btn-block btn-social btn-google">
+                                    <span class="fa fa-google"></span> Google ile Giriş
+                                </a>
+                                <a href="/Account/RedirectToExternalLoginFB" class="btn btn-block btn-social btn-facebook">
+                                    <span class="fa fa-facebook"></span> Facebook ile Giriş
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+            <div id="haberler">
+                @Html.Action("Haberler", "Sorular")
+            </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var editor = CKEDITOR.instances['editor1'];
+    if (editor) { editor.destroy(true); }
+    CKEDITOR.replace('editor1', {
+        enterMode: CKEDITOR.ENTER_BR,
+    });
+    function yonlendir() {
+        setTimeout(function () { location.href = '/Home/Index'; }, 1000);
+    }
+    function yonlendirCevap() {
+        setTimeout(function () { location.href = '@Url.Action("Soru", "Sorular", new { baslik = FriendlyURL.FriendlyURLTitle(Model.Soru.SoruBaslik), SoruId = Model.SoruId })'; }, 1000);
+        }
+</script>

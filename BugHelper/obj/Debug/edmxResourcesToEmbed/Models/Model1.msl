@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sorularDatabaseModelStoreContainer" CdmEntityContainer="sorularDatabaseEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="sorularDatabaseModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ArtiOys">
+      <EntityTypeMapping TypeName="sorularDatabaseModel.ArtiOys">
+        <MappingFragment StoreEntitySet="ArtiOys">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ArtiOySahibi" ColumnName="ArtiOySahibi" />
+          <ScalarProperty Name="Soru_Id" ColumnName="Soru_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CevaplarModels">
+      <EntityTypeMapping TypeName="sorularDatabaseModel.CevaplarModels">
+        <MappingFragment StoreEntitySet="CevaplarModels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cevap" ColumnName="Cevap" />
+          <ScalarProperty Name="CevapSahibi" ColumnName="CevapSahibi" />
+          <ScalarProperty Name="CevapTarihi" ColumnName="CevapTarihi" />
+          <ScalarProperty Name="SorularModelId" ColumnName="SorularModelId" />
+          <ScalarProperty Name="Onay" ColumnName="Onay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EksiOys">
+      <EntityTypeMapping TypeName="sorularDatabaseModel.EksiOys">
+        <MappingFragment StoreEntitySet="EksiOys">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EksiOySahibi" ColumnName="EksiOySahibi" />
+          <ScalarProperty Name="Soru_Id" ColumnName="Soru_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Etikets">
+      <EntityTypeMapping TypeName="sorularDatabaseModel.Etikets">
+        <MappingFragment StoreEntitySet="Etikets">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Etiketler" ColumnName="Etiketler" />
+          <ScalarProperty Name="Soru_Id" ColumnName="Soru_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SorularModels">
+      <EntityTypeMapping TypeName="sorularDatabaseModel.SorularModels">
+        <MappingFragment StoreEntitySet="SorularModels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoruIcerik" ColumnName="SoruIcerik" />
+          <ScalarProperty Name="SoruBaslik" ColumnName="SoruBaslik" />
+          <ScalarProperty Name="SorulmaTarihi" ColumnName="SorulmaTarihi" />
+          <ScalarProperty Name="SoruSahibi" ColumnName="SoruSahibi" />
+          <ScalarProperty Name="Onay" ColumnName="Onay" />
+          <ScalarProperty Name="TiklanmaSayisi" ColumnName="TiklanmaSayisi" />
+          <ScalarProperty Name="CevapSayisi" ColumnName="CevapSayisi" />
+          <ScalarProperty Name="Deger" ColumnName="Deger" />
+          <ScalarProperty Name="KodlamaDili" ColumnName="KodlamaDili" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

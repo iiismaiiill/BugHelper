@@ -1,0 +1,1 @@
+Yöneticinin kullanıcıları engelleyebilmesi için oluşturulan panelin view dosyası

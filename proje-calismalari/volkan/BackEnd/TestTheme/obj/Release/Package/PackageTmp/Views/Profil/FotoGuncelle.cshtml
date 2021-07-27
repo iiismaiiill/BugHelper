@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "FotoGuncelle";
+    Layout = "~/Views/_LayoutMain.cshtml";
+}
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <form class="form-horizontal">
+                            <fieldset>
+
+                                <!-- Form Name -->
+                                <legend>Profil Fotoğrafı Güncelle</legend>
+                                <!-- Photo -->
+                                <div class="form-group">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4">
+                                        <img src="https://www.w3schools.com/bootstrap/img_avatar3.png" class="img-circle" height="150" width="150" alt="Avatar">
+                                    </div>
+                                </div>
+
+                                <!-- File Button -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="filebutton">Fotoğraf Seç</label>
+                                    <div class="col-md-4">
+                                        <input id="filebutton" name="filebutton" class="input-file" type="file">
+                                    </div>
+                                </div>
+
+                                <!-- Button -->
+                                <div class="form-group text-center">
+                                    <label class="col-md-4 control-label" for="singlebutton"></label>
+                                    <div class="col-md-2">
+                                        <a href="#" class="btn btn-success"> Güncelle</a>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a href="/Profil/Index" class="btn btn-danger">Vazgeç</a>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,18 @@
+﻿@using (Ajax.BeginForm("Favori", "Kullanici", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "favoriye-ekle" }, new { @id = "soru-oyla" }))
+{
+    if (Model.FavorideMi != true)
+    {
+        <button id="favoributton" type="submit" value="@Model.SoruId" name="soruId" style="position: absolute; left: -9999px; width: 1px; height: 1px;" tabindex="-1"></button>
+        <a id="favori" class="star star"></a>
+    }
+    else
+    {
+        <button id="favoributton" type="submit" value="@Model.SoruId" name="soruId" style="position: absolute; left: -9999px; width: 1px; height: 1px;" tabindex="-1"></button>
+        <a id="favori" class="star star-on"></a>
+    }
+}
+<script>
+    document.getElementById("favori").onclick = function () {
+        document.getElementById("favoributton").click();
+    }
+</script>
